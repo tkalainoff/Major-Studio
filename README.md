@@ -27,7 +27,7 @@ The sketch really should be hand-drawn, not done with a computer. Please design 
 - 185 rows, 2001-2017, is there more source data to aggregate from? For racial data?
 - Line Graph (multiple lines)
 
-![IMG_5608](https://user-images.githubusercontent.com/77869514/190055266-ff3752fb-5e90-4e06-80b7-5248c0938d8f.jpeg)
+![IMG_5609](https://user-images.githubusercontent.com/77869514/190055281-8bb35d44-9515-4505-b1ce-6d490f7049d9.jpeg)
 
 2)	AMI (mean and median) (10.2.1 Dataset)
 
@@ -35,7 +35,7 @@ The sketch really should be hand-drawn, not done with a computer. Please design 
 - Indicator_10.2.1%3A_Proportion_of_people_living_below_50_percent_of_median_income__percent_
 - 161 rows, bottom 50% quartile, years vary for each entry, only percentages… could we access all data properties from source data to do more extensive calculations? Such as mean and median? And see dispersion or variance over time?
 
-![IMG_5609](https://user-images.githubusercontent.com/77869514/190055281-8bb35d44-9515-4505-b1ce-6d490f7049d9.jpeg)
+![IMG_5608](https://user-images.githubusercontent.com/77869514/190055266-ff3752fb-5e90-4e06-80b7-5248c0938d8f.jpeg)
 
 3)	Access to 2G, 3G, 4G Network (9.c.1 Dataset)
 - Access to technology over time in the UK
