@@ -10,11 +10,12 @@ After reviewing the data and data set imagine 3 different quantitative visualiza
 The sketch really should be hand-drawn, not done with a computer. Please design it for a format of 16:9 and make it self explanatory, so that anyone can understand what they are looking at even without your explanation.
 
 #### The paragraph includes:
-Title of the visualization 
-What are questions that you want to explore with this visualization?
-Which quantitative dataset is used? 
-What are the properties of the data set? How many data points, what's the quality of the data etc?
-Which visualization method is used and why?
+- Title of the visualization 
+- What are questions that you want to explore with this visualization?
+- Which quantitative dataset is used? 
+- What are the properties of the data set?
+- How many data points, what's the quality of the data etc?
+- Which visualization method is used and why?
 
 ![IMG_5610](https://user-images.githubusercontent.com/77869514/190055190-fca022dc-9012-47aa-ad79-8cc2e89ca3df.jpeg)
 ![IMG_5608](https://user-images.githubusercontent.com/77869514/190055266-ff3752fb-5e90-4e06-80b7-5248c0938d8f.jpeg)
