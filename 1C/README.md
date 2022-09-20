@@ -52,14 +52,14 @@ Data structure
 
 Additional objects to include
 
-const colorMap = {
+	const colorMap = {
 
-	“Europe”: #3DD0EB
-	“Asia”: #E8B458
-	“Americas”: #F24435
-	“Africa”: #354EF2
-	“Australasia”: #C13BDB
-}
+		“Europe”: #3DD0EB
+		“Asia”: #E8B458
+		“Americas”: #F24435
+		“Africa”: #354EF2
+		“Australasia”: #C13BDB
+	}
 
 
 ### Design Mockup
