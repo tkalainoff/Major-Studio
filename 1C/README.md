@@ -21,34 +21,34 @@ Data structure
     Array of objects, each object as an individual country
     Each column of the CSV will need to be turned into an array and then looped through in JS to build out an array of objects
 	
-Var countries = {
-“Afghanistan”: {
+	Var countries = {
+	“Afghanistan”: {
 
-    ObjectId: 144
-    geoAreaCode: 4
-    parentName: “SouthernAsia”
-    parentRegion: “Asia”
-    parentCodeUN: “LDC”
-    value_2000: 1450
-    value_2001: 1390
-    value_2002: 1300
-    value_2003: 1240
-    value_2004: 1180
-    value_2005: 1140
-    value_2006: 1120
-    value_2007: 1090
-    value_2008: 1030
-    value_2009: 993
-    value_2010: 954
-    value_2011: 905
-    value_2012: 858
-    value_2013: 810
-    value_2014: 786
-    value_2015: 701
-    value_2016: 673
-    value_2017: 638
+    		ObjectId: 144
+    		geoAreaCode: 4
+    		parentName: “SouthernAsia”
+    		parentRegion: “Asia”
+    		parentCodeUN: “LDC”
+    		value_2000: 1450
+    		value_2001: 1390
+    		value_2002: 1300
+    		value_2003: 1240
+    		value_2004: 1180
+    		value_2005: 1140
+    		value_2006: 1120
+    		value_2007: 1090
+    		value_2008: 1030
+    		value_2009: 993
+    		value_2010: 954
+    		value_2011: 905
+    		value_2012: 858
+    		value_2013: 810
+    		value_2014: 786
+    		value_2015: 701
+    		value_2016: 673
+    		value_2017: 638
+		}
 	}
-}
 
 Additional objects to include
 
