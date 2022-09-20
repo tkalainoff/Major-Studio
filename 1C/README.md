@@ -69,6 +69,8 @@ Additional objects to include
 - Be able to answer why you picked any of the above
 - All designs should be created with a 16:9 aspect ratio in mind (1920x1080px)
 
+Below is an image of a figma mock up, also found at this link: https://www.figma.com/file/LmtOyOg6BITQ7OLnUzR6DF/Maternal-Mortality?node-id=1%3A2
+
 ![Maternal Mortality_It1](https://user-images.githubusercontent.com/77869514/191308452-9a96b1eb-f1df-4370-91f6-23eab68ee542.png)
 
 
