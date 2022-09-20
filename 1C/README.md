@@ -69,5 +69,6 @@ Additional objects to include
 - Be able to answer why you picked any of the above
 - All designs should be created with a 16:9 aspect ratio in mind (1920x1080px)
 
+![Maternal Mortality_It1](https://user-images.githubusercontent.com/77869514/191308452-9a96b1eb-f1df-4370-91f6-23eab68ee542.png)
 
 
