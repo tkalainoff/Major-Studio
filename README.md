@@ -3,7 +3,7 @@
 ## Assignment 01B
 
 ### Data Review
-Now that you have learned about the SDGs and the different organizations,       initiatives and locations involved, try to research actual data sets that might be interesting to you. Find data sets that you find interesting, that are not too large (> 100,000 entries) and not too small (80<).
+Now that you have learned about the SDGs and the different organizations, initiatives and locations involved, try to research actual data sets that might be interesting to you. Find data sets that you find interesting, that are not too large (> 100,000 entries) and not too small (80<).
 
 ### Concepts and Sketches
 After reviewing the data and data set imagine 3 different quantitative visualization concepts with 3 different data sets. For each concept, create a hand-drawn sketch and write a paragraph about the idea.
