@@ -1,0 +1,10 @@
+﻿source,target,value
+AFG,ALB,5
+ALB,Recognized,5
+AFG,ARM,5
+ARM,Otherwise,5
+AFG,BLR,22
+BLR,Protected,5
+BLR,Otherwise,7
+AFG,DNK,34
+DNK,Rejected,34
