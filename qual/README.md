@@ -8,8 +8,8 @@ https://observablehq.com/d/829a66acf746a618
 
 ```json
 {
-  source: "Afghanistan"
-  target: "Albania"
-  value: "5"
+  "source": "Afghanistan"
+  "target": "Albania"
+  "value": 5
 }
 ```
