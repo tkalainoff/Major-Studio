@@ -19,6 +19,34 @@ The sketch really should be hand-drawn, not done with a computer. Please design 
 
 ![Sketch_1](https://user-images.githubusercontent.com/77869514/196469786-e8bfdc72-358c-4f78-a56b-34eea7d2d809.jpg)
 
+
+### Asylum:
+- Title of the visualization 
+- What are questions that you want to explore with this visualization?
+- Which quantitative dataset is used? 
+- https://www.unhcr.org/refugee-statistics/download/?url=2z1B08
+- What are the properties of the data set?
+- How many data points, what's the quality of the data etc?
+- Which visualization method is used and why?
+
 ![Sketch_2](https://user-images.githubusercontent.com/77869514/196469807-1b501db3-b724-4ac8-a537-5a29d51aea8a.jpg)
 
+
+### Missing Migrants:
+- Title of the visualization 
+- What are questions that you want to explore with this visualization?
+- Which quantitative dataset is used? 
+- What are the properties of the data set?
+- How many data points, what's the quality of the data etc?
+- Which visualization method is used and why?
+
 ![Sketch_3](https://user-images.githubusercontent.com/77869514/196469837-8b614d3f-9c19-443b-96c1-555a184aa942.jpg)
+
+
+### SDG Interconnectedness:
+- Title of the visualization 
+- What are questions that you want to explore with this visualization?
+- Which quantitative dataset is used? 
+- What are the properties of the data set?
+- How many data points, what's the quality of the data etc?
+- Which visualization method is used and why?
