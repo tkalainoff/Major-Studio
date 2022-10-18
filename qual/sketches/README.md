@@ -16,3 +16,9 @@ The sketch really should be hand-drawn, not done with a computer. Please design 
 - What are the properties of the data set?
 - How many data points, what's the quality of the data etc?
 - Which visualization method is used and why?
+
+[Scanned Documents.pdf](https://github.com/tkalainoff/major-studio/files/9811827/Scanned.Documents.pdf)
+
+[Scanned Documents 2.pdf](https://github.com/tkalainoff/major-studio/files/9811829/Scanned.Documents.2.pdf)
+
+[Scanned Documents 3.pdf](https://github.com/tkalainoff/major-studio/files/9811831/Scanned.Documents.3.pdf)
