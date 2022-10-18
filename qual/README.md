@@ -16,33 +16,33 @@ https://observablehq.com/d/829a66acf746a618
 
 ```json
 {
-  source: "Albania"
-  target: "recognized"
-  value: 5
+  "source": "Albania"
+  "target": "recognized"
+  "value": 5
 }
 ```
 
 ```json
 {
-  source: "Austria"
-  target: "protected"
-  value: 1730
+  "source": "Austria"
+  "target": "protected"
+  "value": 1730
 }
 ```
 
 ```json
 {
-  source: "Australia"
-  target: "rejected"
-  value: "28"
+  "source": "Australia"
+  "target": "rejected"
+  "value": "28"
 }
 ```
 
 ```json
 {
-  source: "Armenia"
-  target: "closed"
-  value: "5"
+  "source": "Armenia"
+  "target": "closed"
+  "value": "5"
 }
 ```
 
