@@ -17,8 +17,8 @@ The sketch really should be hand-drawn, not done with a computer. Please design 
 - How many data points, what's the quality of the data etc?
 - Which visualization method is used and why?
 
-[Scanned Documents.pdf](https://github.com/tkalainoff/major-studio/files/9811827/Scanned.Documents.pdf)
+![Sketch_1](https://user-images.githubusercontent.com/77869514/196469786-e8bfdc72-358c-4f78-a56b-34eea7d2d809.jpg)
 
-[Scanned Documents 2.pdf](https://github.com/tkalainoff/major-studio/files/9811829/Scanned.Documents.2.pdf)
+![Sketch_2](https://user-images.githubusercontent.com/77869514/196469807-1b501db3-b724-4ac8-a537-5a29d51aea8a.jpg)
 
-[Scanned Documents 3.pdf](https://github.com/tkalainoff/major-studio/files/9811831/Scanned.Documents.3.pdf)
+![Sketch_3](https://user-images.githubusercontent.com/77869514/196469837-8b614d3f-9c19-443b-96c1-555a184aa942.jpg)
