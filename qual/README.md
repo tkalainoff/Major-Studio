@@ -7,13 +7,9 @@
 https://observablehq.com/d/829a66acf746a618
 
 ```json
-allLinks = Array(317) [
-  0: Object {source: "Afghanistan", target: "Albania", value: "5"}
-  1: Object {source: "Afghanistan", target: "Armenia", value: "5"}
-  2: Object {source: "Afghanistan", target: "Australia", value: "81"}
-  3: Object {source: "Afghanistan", target: "Australia", value: "192"}
-  4: Object {source: "Afghanistan", target: "Austria", value: "9264"}
-  5: Object {source: "Afghanistan", target: "Azerbaijan", value: "10"}
-  6: Object {source: "Afghanistan", target: "Azerbaijan", value: "136"}
-  ]
+{
+  source: "Afghanistan"
+  target: "Albania"
+  value: "5"
+}
 ```
