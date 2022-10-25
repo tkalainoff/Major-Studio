@@ -69,4 +69,10 @@ Though this merging of countries into one container called "other" makes sense f
 Below is a screenshot of the beginning of a mock up:
 <img width="905" alt="Sankey_Mockup" src="https://user-images.githubusercontent.com/77869514/197786223-23eff82c-f149-428b-97ec-cfba04ddf4dc.png">
 
+<img width="844" alt="Screen Shot 2022-10-25 at 9 49 36 AM" src="https://user-images.githubusercontent.com/77869514/197791883-06c709df-61b4-4cf5-bae5-dc5d9f0fd803.png">
+<img width="834" alt="Screen Shot 2022-10-25 at 9 49 55 AM" src="https://user-images.githubusercontent.com/77869514/197791886-c5ece6ae-b411-4e84-a7f4-b809c3301c83.png">
+<img width="838" alt="Screen Shot 2022-10-25 at 9 52 27 AM" src="https://user-images.githubusercontent.com/77869514/197794113-948adb3f-9f85-40a9-90cc-af125b85b2b6.png">
+<img width="840" alt="Screen Shot 2022-10-25 at 9 54 28 AM" src="https://user-images.githubusercontent.com/77869514/197794114-2eead948-8999-4348-b0ae-d8f4237e1c1a.png">
+
+
 
