@@ -57,6 +57,7 @@ The next challenge will be to edit the code to accomodate for more data
 ## Design Mockup 
 
 https://www.figma.com/file/r6tn3xB6eOOYMJwCDoUs0w/Asylum-Sankey?node-id=0%3A1
+https://www.figma.com/community/plugin/991975059967102509/Sankey-Connect
 
 In order to make a design mockup and fimga I played around with my data in excel to make some manual calculations that would be necessary to accurately create proportional nodes. Below is a screenshot of those calculations: 
 
