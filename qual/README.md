@@ -43,7 +43,7 @@ https://observablehq.com/d/829a66acf746a618
 }
 ```
 
-## Prototype
+## Code Prototype
 <img width="659" alt="Screen Shot 2022-10-15 at 1 20 27 AM" src="https://user-images.githubusercontent.com/77869514/196485779-cf02db52-0255-4e87-82aa-03cc90b60956.png">
 
 Using the guided code from here: https://bl.ocks.org/d3noob/06e72deea99e7b4859841f305f63ba85 I was able to use some test data and input into this sankey diagram
@@ -53,6 +53,18 @@ Below is an attempt to input the more comprehensive dataset and I broke it :(
 
 The next challenge will be to edit the code to accomodate for more data
 
-<img width="905" alt="Sankey_Mockup" src="https://user-images.githubusercontent.com/77869514/197786223-23eff82c-f149-428b-97ec-cfba04ddf4dc.png">
+
+## Design Mockup 
+
+In order to make a design mockup and fimga I played around with my data in excel to make some manual calculations that would be necessary to accurately create proportional nodes. Below is a screenshot of those calculations: 
 
 <img width="1076" alt="Screen Shot 2022-10-25 at 9 22 19 AM" src="https://user-images.githubusercontent.com/77869514/197786236-9ec6aa8d-20c5-4dda-a41c-c8426334a7a5.png">
+
+The main discovery from this process was that the data of many countries is negligible in comparison/proportion to other countries. So from my first restructuring of my data, I was left with 65 unique countries with data, after these calculations I am left with 19 unique countries with significant amounts of data and one container called "other" to encompass the collection of countries with negligible data.
+
+Though this merging of countries into one container called "other" makes sense for this sankey diagram it does feel dissmissive as each of these data points represent an actual person seeking safety, this adds to the case of having an animated particle sankey diagram where each data point would be a particle moving through the sankey diagram from node to node.
+
+Below is a screenshot of the beginning of a mock up:
+<img width="905" alt="Sankey_Mockup" src="https://user-images.githubusercontent.com/77869514/197786223-23eff82c-f149-428b-97ec-cfba04ddf4dc.png">
+
+
