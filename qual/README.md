@@ -48,7 +48,11 @@ https://observablehq.com/d/829a66acf746a618
 
 Using the guided code from here: https://bl.ocks.org/d3noob/06e72deea99e7b4859841f305f63ba85 I was able to use some test data and input into this sankey diagram
 
-Below is my attempt to input the more comprehensive data set and I broke it :( 
+Below is an attempt to input the more comprehensive dataset and I broke it :( 
 <img width="639" alt="Screen Shot 2022-10-15 at 1 19 30 AM" src="https://user-images.githubusercontent.com/77869514/196485776-6b21ccc5-bb2c-4402-86d1-e3d1dbce85e8.png">
 
-So my next challenge will be to edit the code to accomodate for more data
+The next challenge will be to edit the code to accomodate for more data
+
+<img width="905" alt="Sankey_Mockup" src="https://user-images.githubusercontent.com/77869514/197786223-23eff82c-f149-428b-97ec-cfba04ddf4dc.png">
+
+<img width="1076" alt="Screen Shot 2022-10-25 at 9 22 19 AM" src="https://user-images.githubusercontent.com/77869514/197786236-9ec6aa8d-20c5-4dda-a41c-c8426334a7a5.png">
