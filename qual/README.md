@@ -55,6 +55,7 @@ The next challenge will be to edit the code to accomodate for more data
 
 <img width="1247" alt="Screen Shot 2022-10-25 at 11 17 47 PM" src="https://user-images.githubusercontent.com/77869514/197926674-b6d29462-ca55-4537-a1e6-9848d29d6408.png">
 
+The next iteration will work to fine tune the color palette and hover on effects to improve clarity of the visualization. Also, so reworking of numbers to ensure that all the nodes across the three sections ultimately add up to the same height.
 
 ## Design Mockup 
 
