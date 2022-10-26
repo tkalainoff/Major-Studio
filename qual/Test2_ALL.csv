@@ -1,0 +1,318 @@
+source,target,value
+Afghanistan,Albania,5
+Afghanistan,Armenia,5
+Afghanistan,Australia,81
+Afghanistan,Australia,192
+Afghanistan,Austria,9264
+Afghanistan,Azerbaijan,10
+Afghanistan,Azerbaijan,136
+Afghanistan,Belarus,22
+Afghanistan,Belgium,2360
+Afghanistan,Bosnia and Herzegovina,34
+Afghanistan,Bosnia and Herzegovina,10
+Afghanistan,Brazil,10
+Afghanistan,Bulgaria,2966
+Afghanistan,Canada,71
+Afghanistan,Canada,458
+Afghanistan,China,14
+Afghanistan,Croatia,1576
+Afghanistan,Croatia,5
+Afghanistan,Cyprus,5
+Afghanistan,Czechia,145
+Afghanistan,Denmark,42
+Afghanistan,Denmark,34
+Afghanistan,Egypt,10
+Afghanistan,Estonia,15
+Afghanistan,Finland,466
+Afghanistan,Finland,240
+Afghanistan,France,4476
+Afghanistan,France,16417
+Afghanistan,Georgia,14
+Afghanistan,Germany,8106
+Afghanistan,Germany,16274
+Afghanistan,Germany,1939
+Afghanistan,Greece,3320
+Afghanistan,Greece,15986
+Afghanistan,Hungary,19
+Afghanistan,Iceland,13
+Afghanistan,Iceland,71
+Afghanistan,India,135
+Afghanistan,India,2162
+Afghanistan,Indonesia,146
+Afghanistan,Ireland,5
+Afghanistan,Ireland,217
+Afghanistan,Italy,4280
+Afghanistan,Japan,11
+Afghanistan,Kazakhstan,119
+Afghanistan,Kazakhstan,11
+Afghanistan,Kenya,5
+Afghanistan,Kyrgyzstan,40
+Afghanistan,Latvia,27
+Afghanistan,Lebanon,5
+Afghanistan,Lithuania,5
+Afghanistan,Luxembourg,10
+Afghanistan,Luxembourg,145
+Afghanistan,Madagascar,10
+Afghanistan,Malaysia,28
+Afghanistan,Malaysia,245
+Afghanistan,Montenegro,98
+Afghanistan,Morocco,5
+Afghanistan,Netherlands,2857
+Afghanistan,Netherlands,132
+Afghanistan,New Zealand,18
+Afghanistan,North Macedonia,10
+Afghanistan,Norway,69
+Afghanistan,Norway,177
+Afghanistan,Norway,5
+Afghanistan,Pakistan,21
+Afghanistan,Poland,1338
+Afghanistan,Portugal,101
+Afghanistan,Rep. of Korea,5
+Afghanistan,Romania,4233
+Afghanistan,Romania,145
+Afghanistan,Russian Federation,46
+Afghanistan,Russian Federation,466
+Afghanistan,Serbia and Kosovo: S/RES/1244 (1999),45
+Afghanistan,Slovakia,74
+Afghanistan,Slovenia,2383
+Afghanistan,Spain,742
+Afghanistan,Sri Lanka,5
+Afghanistan,Sweden,656
+Afghanistan,Sweden,550
+Afghanistan,Sweden,220
+Afghanistan,Switzerland,2755
+Afghanistan,Syrian Arab Rep.,15
+Afghanistan,T√ºrkiye,13968
+Afghanistan,Tajikistan,3735
+Afghanistan,Thailand,23
+Afghanistan,Ukraine,198
+Afghanistan,Ukraine,33
+Afghanistan,Ukraine,5
+Afghanistan,United Kingdom of Great Britain and Northern Ireland,395
+Afghanistan,United Kingdom of Great Britain and Northern Ireland,1048
+Afghanistan,United Kingdom of Great Britain and Northern Ireland,10
+Afghanistan,United States of America,23
+Afghanistan,United States of America,10
+Afghanistan,United States of America,252
+Afghanistan,Uruguay,5
+Albania,recognized,5
+Australia,recognized,48
+Australia,recognized,161
+Austria,recognized,2568
+Azerbaijan,recognized,10
+Azerbaijan,recognized,136
+Belgium,recognized,815
+Brazil,recognized,10
+Bulgaria,recognized,50
+Canada,recognized,32
+Canada,recognized,363
+China,recognized,14
+Croatia,recognized,40
+Czechia,recognized,118
+Denmark,recognized,5
+Egypt,recognized,10
+Estonia,recognized,15
+Finland,recognized,281
+Finland,recognized,154
+France,recognized,958
+France,recognized,4611
+Germany,recognized,1409
+Germany,recognized,979
+Germany,recognized,166
+Greece,recognized,274
+Greece,recognized,4235
+Iceland,recognized,21
+India,recognized,121
+India,recognized,1570
+Indonesia,recognized,146
+Ireland,recognized,5
+Ireland,recognized,165
+Italy,recognized,2046
+Japan,recognized,11
+Kenya,recognized,5
+Latvia,recognized,22
+Lebanon,recognized,5
+Luxembourg,recognized,80
+Madagascar,recognized,10
+Malaysia,recognized,16
+Malaysia,recognized,245
+Morocco,recognized,5
+Netherlands,recognized,2344
+Netherlands,recognized,53
+New Zealand,recognized,18
+Norway,recognized,10
+Norway,recognized,32
+Pakistan,recognized,5
+Poland,recognized,751
+Portugal,recognized,67
+Rep. of Korea,recognized,5
+Romania,recognized,164
+Russian Federation,recognized,5
+Russian Federation,recognized,211
+Slovakia,recognized,16
+Slovenia,recognized,5
+Spain,recognized,703
+Sri Lanka,recognized,5
+Sweden,recognized,70
+Sweden,recognized,186
+Sweden,recognized,86
+Switzerland,recognized,446
+Syrian Arab Rep.,recognized,15
+T√ºrkiye,recognized,4340
+Tajikistan,recognized,3675
+Thailand,recognized,18
+Ukraine,recognized,43
+Ukraine,recognized,5
+United Kingdom of Great Britain and Northern Ireland,recognized,111
+United Kingdom of Great Britain and Northern Ireland,recognized,792
+United Kingdom of Great Britain and Northern Ireland,recognized,5
+United States of America,recognized,13
+United States of America,recognized,5
+United States of America,recognized,156
+Uruguay,recognized,5
+Austria,protected,1730
+Belarus,protected,5
+Belgium,protected,355
+Bulgaria,protected,33
+Denmark,protected,10
+Finland,protected,51
+Finland,protected,13
+France,protected,2037
+France,protected,7625
+Georgia,protected,14
+Germany,protected,2233
+Germany,protected,6870
+Germany,protected,500
+Greece,protected,901
+Greece,protected,2766
+Hungary,protected,5
+Iceland,protected,38
+Ireland,protected,5
+Italy,protected,2130
+Latvia,protected,5
+Luxembourg,protected,30
+Netherlands,protected,313
+Netherlands,protected,5
+North Macedonia,protected,5
+Norway,protected,108
+Poland,protected,5
+Portugal,protected,34
+Romania,protected,15
+Romania,protected,30
+Slovakia,protected,5
+Spain,protected,39
+Sweden,protected,5
+Sweden,protected,38
+Sweden,protected,5
+Switzerland,protected,1524
+Ukraine,protected,16
+Ukraine,protected,5
+United Kingdom of Great Britain and Northern Ireland,protected,32
+Australia,rejected,28
+Australia,rejected,31
+Austria,rejected,1086
+Belgium,rejected,1190
+Bosnia and Herzegovina,rejected,5
+Bosnia and Herzegovina,rejected,10
+Bulgaria,rejected,32
+Canada,rejected,39
+Canada,rejected,56
+Croatia,rejected,5
+Croatia,rejected,5
+Denmark,rejected,27
+Denmark,rejected,34
+Finland,rejected,102
+Finland,rejected,35
+France,rejected,1349
+France,rejected,4108
+Germany,rejected,1413
+Germany,rejected,1724
+Germany,rejected,103
+Greece,rejected,1458
+Greece,rejected,820
+India,rejected,175
+Ireland,rejected,20
+Italy,rejected,104
+Kazakhstan,rejected,119
+Kazakhstan,rejected,11
+Kyrgyzstan,rejected,30
+Lithuania,rejected,5
+Luxembourg,rejected,5
+Luxembourg,rejected,35
+Malaysia,rejected,12
+Netherlands,rejected,82
+Netherlands,rejected,62
+Norway,rejected,49
+Norway,rejected,17
+Poland,rejected,52
+Romania,rejected,804
+Romania,rejected,115
+Slovakia,rejected,5
+Slovenia,rejected,10
+Sweden,rejected,467
+Sweden,rejected,141
+Sweden,rejected,92
+Switzerland,rejected,51
+T√ºrkiye,rejected,2828
+Tajikistan,rejected,60
+Ukraine,rejected,59
+Ukraine,rejected,23
+United Kingdom of Great Britain and Northern Ireland,rejected,61
+United Kingdom of Great Britain and Northern Ireland,rejected,173
+United States of America,rejected,5
+United States of America,rejected,33
+Armenia,closed,5
+Australia,closed,5
+Austria,closed,3880
+Belarus,closed,17
+Bosnia and Herzegovina,closed,29
+Bulgaria,closed,2851
+Canada,closed,39
+Croatia,closed,1531
+Cyprus,closed,5
+Czechia,closed,27
+Finland,closed,32
+Finland,closed,38
+France,closed,132
+France,closed,73
+Germany,closed,3051
+Germany,closed,6701
+Germany,closed,1170
+Greece,closed,687
+Greece,closed,8165
+Hungary,closed,14
+Iceland,closed,13
+Iceland,closed,12
+India,closed,14
+India,closed,417
+Ireland,closed,27
+Kyrgyzstan,closed,10
+Luxembourg,closed,5
+Montenegro,closed,98
+Netherlands,closed,118
+Netherlands,closed,12
+North Macedonia,closed,5
+Norway,closed,10
+Norway,closed,20
+Norway,closed,5
+Pakistan,closed,16
+Poland,closed,530
+Romania,closed,3250
+Russian Federation,closed,41
+Russian Federation,closed,255
+Serbia and Kosovo: S/RES/1244 (1999),closed,45
+Slovakia,closed,48
+Slovenia,closed,2368
+Sweden,closed,114
+Sweden,closed,185
+Sweden,closed,37
+Switzerland,closed,734
+T√ºrkiye,closed,6800
+Thailand,closed,5
+Ukraine,closed,80
+Ukraine,closed,5
+United Kingdom of Great Britain and Northern Ireland,closed,223
+United Kingdom of Great Britain and Northern Ireland,closed,51
+United Kingdom of Great Britain and Northern Ireland,closed,5
+United States of America,closed,10
+United States of America,closed,63

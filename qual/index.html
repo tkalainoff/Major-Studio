@@ -35,8 +35,8 @@ var units = "Widgets";
 
 // set the dimensions and margins of the graph
 var margin = {top: 10, right: 10, bottom: 10, left: 10},
-    width = 700 - margin.left - margin.right,
-    height = 300 - margin.top - margin.bottom;
+    width = 1200 - margin.left - margin.right,
+    height = 1200 - margin.top - margin.bottom;
 
 // format variables
 var formatNumber = d3.format(",.0f"),    // zero decimal places
@@ -53,14 +53,14 @@ var svg = d3.select("body").append("svg")
 
 // Set the sankey diagram properties
 var sankey = d3.sankey()
-    .nodeWidth(36)
+    .nodeWidth(60)
     .nodePadding(40)
     .size([width, height]);
 
 var path = sankey.link();
 
 // load the data
-d3.csv("Test.csv", function(error, data) {
+d3.csv("Test2.csv", function(error, data) {
  
   //set up graph in same style as original example but empty
   graph = {"nodes" : [], "links" : []};
