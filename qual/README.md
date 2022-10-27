@@ -53,6 +53,9 @@ Below is an attempt to input the more comprehensive dataset and I broke it :(
 
 The next challenge will be to edit the code to accomodate for more data
 
+<img width="1247" alt="Screen Shot 2022-10-25 at 11 17 47 PM" src="https://user-images.githubusercontent.com/77869514/197926674-b6d29462-ca55-4537-a1e6-9848d29d6408.png">
+
+The next iteration will work to fine tune the color palette and hover on effects to improve clarity of the visualization. Also, so reworking of numbers to ensure that all the nodes across the three sections ultimately add up to the same height.
 
 ## Design Mockup 
 
@@ -69,11 +72,6 @@ Though this merging of countries into one container called "other" makes sense f
 
 Below is a screenshot of the beginning of a mock up:
 <img width="905" alt="Sankey_Mockup" src="https://user-images.githubusercontent.com/77869514/197786223-23eff82c-f149-428b-97ec-cfba04ddf4dc.png">
-
-<img width="844" alt="Screen Shot 2022-10-25 at 9 49 36 AM" src="https://user-images.githubusercontent.com/77869514/197791883-06c709df-61b4-4cf5-bae5-dc5d9f0fd803.png">
-<img width="834" alt="Screen Shot 2022-10-25 at 9 49 55 AM" src="https://user-images.githubusercontent.com/77869514/197791886-c5ece6ae-b411-4e84-a7f4-b809c3301c83.png">
-<img width="838" alt="Screen Shot 2022-10-25 at 9 52 27 AM" src="https://user-images.githubusercontent.com/77869514/197794113-948adb3f-9f85-40a9-90cc-af125b85b2b6.png">
-<img width="840" alt="Screen Shot 2022-10-25 at 9 54 28 AM" src="https://user-images.githubusercontent.com/77869514/197794114-2eead948-8999-4348-b0ae-d8f4237e1c1a.png">
 
 
 
