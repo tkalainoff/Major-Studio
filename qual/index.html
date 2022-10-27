@@ -109,19 +109,20 @@ d3.csv("Test2.csv", function(error, data) {
       .style("stroke-width", function(d) { return Math.max(1, d.dy); })
       .sort(function(a, b) { return b.dy - a.dy; });
 
-      link.on("mouseover", function(d) {      
-            div.transition()        
-                .duration(200)      
-                .style("opacity", .9);      
-            div .html("<b>" + d.source.name + "</b> → <b>"  + d.target.name + "</b><br/>" + format(d.value))  
-                .style("left", (d3.event.pageX) + "px")     
-                .style("top", (d3.event.pageY - 28) + "px");    
-            })                  
-        .on("mouseout", function(d) {       
-            div.transition()        
-                .duration(500)      
-                .style("opacity", 0);   
-        });
+      // https://bl.ocks.org/cdermont/846051eb548e846eac60
+      // link.on("mouseover", function(d) {      
+      //       div.transition()        
+      //           .duration(200)      
+      //           .style("opacity", .9);      
+      //       div .html("<b>" + d.source.name + "</b> → <b>"  + d.target.name + "</b><br/>" + format(d.value))  
+      //           .style("left", (d3.event.pageX) + "px")     
+      //           .style("top", (d3.event.pageY - 28) + "px");    
+      //       })                  
+      //   .on("mouseout", function(d) {       
+      //       div.transition()        
+      //           .duration(500)      
+      //           .style("opacity", 0);   
+      //   });
 
   // add the link titles
   link.append("title")
@@ -159,20 +160,20 @@ d3.csv("Test2.csv", function(error, data) {
       .text(function(d) { 
 		  return d.name + "\n" + format(d.value);
       })
-  
-      rect.on("mouseover", function(d) {      
-            div.transition()        
-                .duration(200)      
-                .style("opacity", .9);      
-            div .html("<b>" + d.name + "</b>:<br/>" + format(d.value))  
-                .style("left", (d3.event.pageX) + "px")     
-                .style("top", (d3.event.pageY - 28) + "px");    
-            })                  
-        .on("mouseout", function(d) {       
-            div.transition()        
-                .duration(500)      
-                .style("opacity", 0);   
-        });
+      // https://bl.ocks.org/cdermont/846051eb548e846eac60
+      // rect.on("mouseover", function(d) {      
+      //       div.transition()        
+      //           .duration(200)      
+      //           .style("opacity", .9);      
+      //       div .html("<b>" + d.name + "</b>:<br/>" + format(d.value))  
+      //           .style("left", (d3.event.pageX) + "px")     
+      //           .style("top", (d3.event.pageY - 28) + "px");    
+      //       })                  
+      //   .on("mouseout", function(d) {       
+      //       div.transition()        
+      //           .duration(500)      
+      //           .style("opacity", 0);   
+      //   });
 
   // add d3 event for mouseover
       // .on("mouseover", function(d) {
@@ -207,23 +208,24 @@ d3.csv("Test2.csv", function(error, data) {
       .attr("x", 6 + sankey.nodeWidth())
       .attr("text-anchor", "start");
 
-  // Fade-Effect on mouseover
-      node.on("mouseover", function(d) {
-        link.transition()        
-              .duration(700)
-          .style("opacity", .1);
-        link.filter(function(s) { return d.name == s.source.name; }).transition()        
-              .duration(700)
-          .style("opacity", 1);
-        link.filter(function(t) { return d.name == t.target.name; }).transition()        
-              .duration(700)
-          .style("opacity", 1);
-        })
-        .on("mouseout", function(d) { svg.selectAll(".link").transition()        
-              .duration(700)
-          .style("opacity", 1)} ); 
+  // https://bl.ocks.org/cdermont/846051eb548e846eac60
+  // // Fade-Effect on mouseover
+  //     node.on("mouseover", function(d) {
+  //       link.transition()        
+  //             .duration(700)
+  //         .style("opacity", .1);
+  //       link.filter(function(s) { return d.name == s.source.name; }).transition()        
+  //             .duration(700)
+  //         .style("opacity", 1);
+  //       link.filter(function(t) { return d.name == t.target.name; }).transition()        
+  //             .duration(700)
+  //         .style("opacity", 1);
+  //       })
+  //       .on("mouseout", function(d) { svg.selectAll(".link").transition()        
+  //             .duration(700)
+  //         .style("opacity", 1)} ); 
               
-      });
+  //     });
 
   // the function for moving the nodes
   function dragmove(d) {
