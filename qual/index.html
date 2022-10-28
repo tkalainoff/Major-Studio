@@ -40,8 +40,8 @@ var units = "Widgets";
 
 // set the dimensions and margins of the graph
 var margin = {top: 10, right: 10, bottom: 10, left: 10},
-    width = 1200 - margin.left - margin.right,
-    height = 1200 - margin.top - margin.bottom;
+    width = 1900 - margin.left - margin.right,
+    height = 1600 - margin.top - margin.bottom;
 
 // format variables
 var formatNumber = d3.format(",.0f"),    // zero decimal places
@@ -52,7 +52,7 @@ var formatNumber = d3.format(",.0f"),    // zero decimal places
 var svg = d3.select("body").append("svg")
     .attr("width", width + margin.left + margin.right)
     .attr("height", height + margin.top + margin.bottom)
-  .append("g")
+    .append("g")
     .attr("transform", 
           "translate(" + margin.left + "," + margin.top + ")");
 
@@ -65,7 +65,7 @@ var sankey = d3.sankey()
 var path = sankey.link();
 
 // load the data
-d3.csv("Test2.csv", function(error, data) {
+d3.csv("Test2_fix.csv", function(error, data) {
  
   //set up graph in same style as original example but empty
   graph = {"nodes" : [], "links" : []};
@@ -175,13 +175,14 @@ d3.csv("Test2.csv", function(error, data) {
       //           .style("opacity", 0);   
       //   });
 
+
   // add d3 event for mouseover
       // .on("mouseover", function(d) {
       // link
       // .transition()
       // .duration(300)
       // .style("stroke-opacity", function(l) {
-      //   return links.source === d || links.target === d ? 0.5 : 0.2;
+      //   return l.source === d || l.target === d ? 0.5 : 0.2;
       // });
       // })
       // .on("mouseleave", function(d) {
