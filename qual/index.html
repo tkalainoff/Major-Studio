@@ -41,12 +41,13 @@ var units = "Widgets";
 // set the dimensions and margins of the graph
 var margin = {top: 10, right: 10, bottom: 10, left: 10},
     width = 1900 - margin.left - margin.right,
-    height = 1600 - margin.top - margin.bottom;
+    height = 3000- margin.top - margin.bottom;
 
 // format variables
 var formatNumber = d3.format(",.0f"),    // zero decimal places
     format = function(d) { return formatNumber(d) + " " + units; },
-    color = d3.scaleOrdinal(d3.schemeCategory10);
+    color = d3.scaleOrdinal(d3.schemeCategory20);
+    // color = d3.scale.category20();
 
 // append the svg object to the body of the page
 var svg = d3.select("body").append("svg")
@@ -64,17 +65,24 @@ var sankey = d3.sankey()
 
 var path = sankey.link();
 
+// var color = d3.scale.ordinal()
+//     .domain(["Afghanistan", "recognized", "protected", "rejected", "closed"])
+//     .range(["darkcyan", "lawngreen", "gold", "firebrick", "mediumvioletred"])
+
 // load the data
-d3.csv("Test2_fix.csv", function(error, data) {
+d3.csv("Test3A.csv", function(error, data) {
  
   //set up graph in same style as original example but empty
   graph = {"nodes" : [], "links" : []};
 
   data.forEach(function (d) {
-    graph.nodes.push({ "name": d.source });
-    graph.nodes.push({ "name": d.target });
+    graph.nodes.push({ "name": d.source,
+                        "color": d.color });
+    graph.nodes.push({ "name": d.target, 
+                        "color": d.color });
     graph.links.push({ "source": d.source,
                        "target": d.target,
+                      "color": d.color,
                        "value": +d.value });
    });
 
@@ -107,6 +115,7 @@ d3.csv("Test2_fix.csv", function(error, data) {
       .attr("class", "link")
       .attr("d", path)
       .style("stroke-width", function(d) { return Math.max(1, d.dy); })
+      .style("stroke", function(d) { return d.color; })
       .sort(function(a, b) { return b.dy - a.dy; });
 
       // https://bl.ocks.org/cdermont/846051eb548e846eac60
@@ -135,6 +144,7 @@ d3.csv("Test2_fix.csv", function(error, data) {
       .data(graph.nodes)
       .enter().append("g")
       .attr("class", "node")
+      .style("fill", function(d) {return color(d.name); })
       .attr("transform", function(d) { 
 		  return "translate(" + d.x + "," + d.y + ")"; })
       .call(d3.drag()
@@ -152,10 +162,10 @@ d3.csv("Test2_fix.csv", function(error, data) {
   var rect = node.append("rect")
       .attr("height", function(d) { return d.dy; })
       .attr("width", sankey.nodeWidth())
-      .style("fill", function(d) { 
-		  return d.color = color(d.name.replace(/ .*/, "")); })
-      .style("stroke", function(d) { 
-		  return d3.rgb(d.color).darker(2); })
+      // .style("fill", function(d) { 
+		  // return d.color = color(d.name.replace(/ .*/, "")); })
+      // .style("stroke", function(d) { 
+		  // return d3.rgb(d.color).darker(2); })
       .append("title")
       .text(function(d) { 
 		  return d.name + "\n" + format(d.value);
