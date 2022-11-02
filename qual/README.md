@@ -57,6 +57,8 @@ The next challenge will be to edit the code to accomodate for more data
 
 The next iteration will work to fine tune the color palette and hover on effects to improve clarity of the visualization. Also, so reworking of numbers to ensure that all the nodes across the three sections ultimately add up to the same height.
 
+<img width="1042" alt="Screen Shot 2022-11-01 at 12 09 44 PM" src="https://user-images.githubusercontent.com/77869514/199387047-cf5b9796-fa5c-48f4-b851-445b1551b1fd.png">
+
 ## Design Mockup 
 
 https://www.figma.com/file/r6tn3xB6eOOYMJwCDoUs0w/Asylum-Sankey?node-id=0%3A1
