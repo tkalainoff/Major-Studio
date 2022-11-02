@@ -17,6 +17,7 @@
 .node text {
   pointer-events: none;
   text-shadow: 0 1px 0 #fff;
+  stroke: black
 }
 
 .link {
@@ -40,14 +41,13 @@ var units = "Widgets";
 
 // set the dimensions and margins of the graph
 var margin = {top: 10, right: 10, bottom: 10, left: 10},
-    width = 1900 - margin.left - margin.right,
-    height = 3000- margin.top - margin.bottom;
+    width = 3000 - margin.left - margin.right,
+    height = 2000- margin.top - margin.bottom;
 
 // format variables
 var formatNumber = d3.format(",.0f"),    // zero decimal places
     format = function(d) { return formatNumber(d) + " " + units; },
     color = d3.scaleOrdinal(d3.schemeCategory20);
-    // color = d3.scale.category20();
 
 // append the svg object to the body of the page
 var svg = d3.select("body").append("svg")
@@ -65,26 +65,31 @@ var sankey = d3.sankey()
 
 var path = sankey.link();
 
-// var color = d3.scale.ordinal()
-//     .domain(["Afghanistan", "recognized", "protected", "rejected", "closed"])
-//     .range(["darkcyan", "lawngreen", "gold", "firebrick", "mediumvioletred"])
+// var color = d3.scaleOrdinal()
+//     .domain(["Afghanistan", "Greece", "recognized", "protected", "rejected", "closed"])
+//     .range(["darkcyan", "darkcyan", "lawngreen", "gold", "firebrick", "mediumvioletred"])
 
 // load the data
+// let source = []
+
 d3.csv("Test3A.csv", function(error, data) {
  
   //set up graph in same style as original example but empty
   graph = {"nodes" : [], "links" : []};
 
   data.forEach(function (d) {
-    graph.nodes.push({ "name": d.source,
-                        "color": d.color });
-    graph.nodes.push({ "name": d.target, 
-                        "color": d.color });
+    graph.nodes.push({ "name": d.source});
+    graph.nodes.push({ "name": d.target});
     graph.links.push({ "source": d.source,
                        "target": d.target,
                       "color": d.color,
                        "value": +d.value });
    });
+
+
+  // data.forEach(d => source.push(d.source))
+  // console.log(source)
+
 
   // return only the distinct / unique nodes
   graph.nodes = d3.keys(d3.nest()
@@ -118,33 +123,19 @@ d3.csv("Test3A.csv", function(error, data) {
       .style("stroke", function(d) { return d.color; })
       .sort(function(a, b) { return b.dy - a.dy; });
 
-      // https://bl.ocks.org/cdermont/846051eb548e846eac60
-      // link.on("mouseover", function(d) {      
-      //       div.transition()        
-      //           .duration(200)      
-      //           .style("opacity", .9);      
-      //       div .html("<b>" + d.source.name + "</b> → <b>"  + d.target.name + "</b><br/>" + format(d.value))  
-      //           .style("left", (d3.event.pageX) + "px")     
-      //           .style("top", (d3.event.pageY - 28) + "px");    
-      //       })                  
-      //   .on("mouseout", function(d) {       
-      //       div.transition()        
-      //           .duration(500)      
-      //           .style("opacity", 0);   
-      //   });
 
   // add the link titles
   link.append("title")
         .text(function(d) {
     		return d.source.name + " → " + 
-                d.target.name + "\n" + format(d.value); });
+               d.target.name + "\n" + format(d.value); });
 
   // add in the nodes
   var node = svg.append("g").selectAll(".node")
       .data(graph.nodes)
       .enter().append("g")
       .attr("class", "node")
-      .style("fill", function(d) {return color(d.name); })
+      // .style("fill", function(d) {return color(d.name); })
       .attr("transform", function(d) { 
 		  return "translate(" + d.x + "," + d.y + ")"; })
       .call(d3.drag()
@@ -156,56 +147,22 @@ d3.csv("Test3A.csv", function(error, data) {
         })
         .on("drag", dragmove));
 
-        
-
   // add the rectangles for the nodes
   var rect = node.append("rect")
       .attr("height", function(d) { return d.dy; })
       .attr("width", sankey.nodeWidth())
-      // .style("fill", function(d) { 
-		  // return d.color = color(d.name.replace(/ .*/, "")); })
+      .style("fill", "darkcyan")
+    //   .style("fill",(d, i) => { 
+		//    d.color = color(d.name.replace(/ .*/, ""))
+    //    d.color = color(i);
+    //    return d.color;
+    //  })
       // .style("stroke", function(d) { 
 		  // return d3.rgb(d.color).darker(2); })
       .append("title")
       .text(function(d) { 
 		  return d.name + "\n" + format(d.value);
-      })
-      // https://bl.ocks.org/cdermont/846051eb548e846eac60
-      // rect.on("mouseover", function(d) {      
-      //       div.transition()        
-      //           .duration(200)      
-      //           .style("opacity", .9);      
-      //       div .html("<b>" + d.name + "</b>:<br/>" + format(d.value))  
-      //           .style("left", (d3.event.pageX) + "px")     
-      //           .style("top", (d3.event.pageY - 28) + "px");    
-      //       })                  
-      //   .on("mouseout", function(d) {       
-      //       div.transition()        
-      //           .duration(500)      
-      //           .style("opacity", 0);   
-      //   });
-
-
-  // add d3 event for mouseover
-      // .on("mouseover", function(d) {
-      // link
-      // .transition()
-      // .duration(300)
-      // .style("stroke-opacity", function(l) {
-      //   return l.source === d || l.target === d ? 0.5 : 0.2;
-      // });
-      // })
-      // .on("mouseleave", function(d) {
-      // link
-      //     .transition()
-      //     .duration(300)
-      //     .style("stroke-opacity", 0.2);
-      // })
-      // Add hover text
-      // .append("title")
-      // .text(function(d) {
-      //   return d.name + "\n" + d.value
-      // });
+      });
 
   // add in the title for the nodes
   node.append("text")
@@ -221,22 +178,21 @@ d3.csv("Test3A.csv", function(error, data) {
 
   // https://bl.ocks.org/cdermont/846051eb548e846eac60
   // // Fade-Effect on mouseover
-  //     node.on("mouseover", function(d) {
-  //       link.transition()        
-  //             .duration(700)
-  //         .style("opacity", .1);
-  //       link.filter(function(s) { return d.name == s.source.name; }).transition()        
-  //             .duration(700)
-  //         .style("opacity", 1);
-  //       link.filter(function(t) { return d.name == t.target.name; }).transition()        
-  //             .duration(700)
-  //         .style("opacity", 1);
-  //       })
-  //       .on("mouseout", function(d) { svg.selectAll(".link").transition()        
-  //             .duration(700)
-  //         .style("opacity", 1)} ); 
-              
-  //     });
+      node.on("mouseover", function(d) {
+        link.transition()        
+              .duration(700)
+              .style("opacity", .1);
+        link.filter(function(s) { return d.name == s.source.name; }).transition()        
+              .duration(700)
+              .style("opacity", 1);
+        link.filter(function(t) { return d.name == t.target.name; }).transition()        
+              .duration(700)
+              .style("opacity", 1);
+        })
+        .on("mouseout", function(d) { svg.selectAll(".link").transition()        
+              .duration(700)
+              .style("opacity", 1)} ); 
+       
 
   // the function for moving the nodes
   function dragmove(d) {
@@ -251,8 +207,6 @@ d3.csv("Test3A.csv", function(error, data) {
     link.attr("d", path);
   }
 });
-
-
 
 </script>
 
