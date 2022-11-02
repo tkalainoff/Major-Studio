@@ -59,6 +59,8 @@ The next iteration will work to fine tune the color palette and hover on effects
 
 <img width="1042" alt="Screen Shot 2022-11-01 at 12 09 44 PM" src="https://user-images.githubusercontent.com/77869514/199387047-cf5b9796-fa5c-48f4-b851-445b1551b1fd.png">
 
+<img width="1023" alt="Screen Shot 2022-11-01 at 11 15 46 PM" src="https://user-images.githubusercontent.com/77869514/199387330-386e9508-f3fa-4b99-803d-f05640f47469.png">
+
 ## Design Mockup 
 
 https://www.figma.com/file/r6tn3xB6eOOYMJwCDoUs0w/Asylum-Sankey?node-id=0%3A1
