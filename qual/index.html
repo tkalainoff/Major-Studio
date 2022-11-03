@@ -4,6 +4,7 @@
 <style>
 html{
   background-color: none;
+  /* font-family:'Times New Roman', Times, serif; */
   font-family:'Source Sans Pro', sans-serif;
 }
 
@@ -14,10 +15,11 @@ div {
 }
 
 p {
-  font-size: x-small;
+  /* font-family: Georgia, 'Times New Roman', Times, serif */
+  font-size: small;
   inline-size: 230px;
   overflow-wrap: break-word;
-  /* padding: 05px; */
+  padding: 15px;
   /* border: solid black; */
   text-align: left;
 }
@@ -26,9 +28,19 @@ iframe {
   margin-top: 5px;
 }
 
+h5 {
+  font-family:'Source Sans Pro', sans-serif;
+  font-style: italic;
+  font-weight: bold;
+}
+
+h7 {
+  font-size: x-small;
+}
+
 .left-box{
   float: left;
-  width: 250px;
+  width: 300px;
   height: 600px;
   /* border: 3px solid #73AD21; */
   padding: 0;
@@ -74,235 +86,21 @@ iframe {
 </style>
 <body>
 
-
-
-<script src="https://d3js.org/d3.v4.min.js"></script>
-<script src="sankey.js"></script>
-
 <!-- text -->
 <div class="left-box">
   
-  <h2 class="center"> Asylum Applications from Afghanistan in 2021</h2>
+    <h2 class="center"> Asylum Applications from Afghanistan in 2021</h2>
   
-  <h5> Parsons partnership with the United Nations for DVMS Major Studio 1</h5>
-
-  <p>as;kdjf;asjdhf;ashd; tea;kjsdksaljdf;iashjf;oaiehf;iaohdas;ihfasihjf
-  </p>
+    <h5>Partnership between the United Nations and Parsons School of Design for Data Visualization Major Studio 1</h5>
+    <h7>Created by Tatiana Kalainoff</h7>
+  
+    <p>as;kdjf;asjdhf;ashd; tea;kjsdksaljdf;iashjf;oaiehf;iaohdas;ihfasihjf
+    </p>
 </div>
 
 <!-- iframe with sankey -->
 <div id="wrapper">
   <iframe id="scaled-frame" src = "sankey.html" scrolling="no"></iframe>
 </div>
-
-<!-- <script>
-
-var units = "Widgets";
-
-// set the dimensions and margins of the graph
-var margin = {top: 150, right: 10, bottom: 10, left: 10},
-    width = 3000 - margin.left - margin.right,
-    height = 2000- margin.top - margin.bottom;
-
-// format variables
-var formatNumber = d3.format(",.0f"),    // zero decimal places
-    format = function(d) { return formatNumber(d) + " " + units; },
-    color = d3.scaleOrdinal(d3.schemeCategory20);
-
-// append the svg object to the body of the page
-var svg = d3.select("body").append("svg")
-    .attr("width", width + margin.left + margin.right)
-    .attr("height", height + margin.top + margin.bottom)
-    .style("display", "block")
-    .style("margin", "auto")
-    .append("g")
-    .attr("transform", 
-          "translate(" + margin.left + "," + margin.top + ")");
-
-// Set the sankey diagram properties
-var sankey = d3.sankey()
-    .nodeWidth(60)
-    .nodePadding(40)
-    .size([width, height]);
-
-var path = sankey.link();
-
-var div = d3.select("body").append("div")
-    .attr("class", "tooltipsankey")
-    .style("opacity", 0);
-
-// var color = d3.scaleOrdinal()
-//     .domain(["Afghanistan", "Greece", "recognized", "protected", "rejected", "closed"])
-//     .range(["darkcyan", "darkcyan", "lawngreen", "gold", "firebrick", "mediumvioletred"])
-
-// load the data
-// let source = []
-
-d3.csv("Test3A.csv", function(error, data) {
- 
-  //set up graph in same style as original example but empty
-  graph = {"nodes" : [], "links" : []};
-
-  data.forEach(function (d) {
-    graph.nodes.push({ "name": d.source});
-    graph.nodes.push({ "name": d.target});
-    graph.links.push({ "source": d.source,
-                       "target": d.target,
-                      "color": d.color,
-                       "value": +d.value });
-   });
-
-
-  // data.forEach(d => source.push(d.source))
-  // console.log(source)
-
-
-  // return only the distinct / unique nodes
-  graph.nodes = d3.keys(d3.nest()
-    .key(function (d) { return d.name; })
-    .object(graph.nodes));
-
-  // loop through each link replacing the text with its index from node
-  graph.links.forEach(function (d, i) {
-    graph.links[i].source = graph.nodes.indexOf(graph.links[i].source);
-    graph.links[i].target = graph.nodes.indexOf(graph.links[i].target);
-  });
-
-  // now loop through each nodes to make nodes an array of objects
-  // rather than an array of strings
-  graph.nodes.forEach(function (d, i) {
-    graph.nodes[i] = { "name": d };
-  });
-
-  sankey
-      .nodes(graph.nodes)
-      .links(graph.links)
-      .layout(32);
-
-  // add in the links
-  var link = svg.append("g").selectAll(".link")
-      .data(graph.links)
-      .enter().append("path")
-      .attr("class", "link")
-      .attr("d", path)
-      .style("stroke-width", function(d) { return Math.max(1, d.dy); })
-      .style("stroke", function(d) { return d.color; })
-      .sort(function(a, b) { return b.dy - a.dy; });
-
-      // mouseover on links for tooltip
-      link.on("mouseover", function(d) {      
-            div.transition()        
-                .duration(200)      
-                .style("opacity", .9);      
-            div .html("<b>" + d.source.name + "</b> → <b>"  + d.target.name + "</b><br/>" + d.value + "\napplications")  
-                .style("left", (d3.event.pageX) + "px")     
-                .style("top", (d3.event.pageY - 28) + "px");    
-            })                  
-        .on("mouseout", function(d) {       
-            div.transition()        
-                .duration(500)      
-                .style("opacity", 0);   
-        });      
-
-  // add the link titles
-  // link.append("title")
-  //       .text(function(d) {
-  //   		return d.source.name + " → " + 
-  //              d.target.name + "\n" + format(d.value); });
-
-  // add in the nodes
-  var node = svg.append("g").selectAll(".node")
-      .data(graph.nodes)
-      .enter().append("g")
-      .attr("class", "node")
-      // .style("fill", function(d) {return color(d.name); })
-      .attr("transform", function(d) { 
-		  return "translate(" + d.x + "," + d.y + ")"; })
-      .call(d3.drag()
-        .subject(function(d) {
-          return d;
-        })
-        .on("start", function() {
-          this.parentNode.appendChild(this);
-        })
-        .on("drag", dragmove));
-
-  // add the rectangles for the nodes
-  var rect = node.append("rect")
-      .attr("height", function(d) { return d.dy; })
-      .attr("width", sankey.nodeWidth())
-      .style("fill", "darkcyan")
-    //   .style("fill",(d, i) => { 
-		//    d.color = color(d.name.replace(/ .*/, ""))
-    //    d.color = color(i);
-    //    return d.color;
-    //  })
-      // .style("stroke", function(d) { 
-		  // return d3.rgb(d.color).darker(2); })
-      // .append("title")
-      // .text(function(d) { 
-		  // return d.name + "\nTotal:\n" + format(d.value);
-      // });
-
-      // mouseover on rect for tooltip
-      rect.on("mouseover", function(d) {      
-            div.transition()        
-                .duration(200)      
-                .style("opacity", .9);      
-            div .html("<b>" + d.name + "</b><br/>" + "<b>\nTotal:\n</b>" + d.value + "\napplications")  
-                .style("left", (d3.event.pageX) + "px")     
-                .style("top", (d3.event.pageY - 28) + "px");    
-            })                  
-        .on("mouseout", function(d) {       
-            div.transition()        
-                .duration(500)      
-                .style("opacity", 0);   
-        });         
-
-  // add in the title for the nodes
-  node.append("text")
-      .attr("x", -6)
-      .attr("y", function(d) { return d.dy / 2; })
-      .attr("dy", ".35em")
-      .attr("text-anchor", "end")
-      .attr("transform", null)
-      .text(function(d) { return d.name; })
-      .filter(function(d) { return d.x < width / 2; })
-      .attr("x", 6 + sankey.nodeWidth())
-      .attr("text-anchor", "start");
-
-  // https://bl.ocks.org/cdermont/846051eb548e846eac60
-  // // Fade-Effect on mouseover
-      node.on("mouseover", function(d) {
-        link.transition()        
-              .duration(700)
-              .style("opacity", .1);
-        link.filter(function(s) { return d.name == s.source.name; }).transition()        
-              .duration(700)
-              .style("opacity", 1);
-        link.filter(function(t) { return d.name == t.target.name; }).transition()        
-              .duration(700)
-              .style("opacity", 1);
-        })
-        .on("mouseout", function(d) { svg.selectAll(".link").transition()        
-              .duration(700)
-              .style("opacity", 1)} ); 
-       
-
-  // the function for moving the nodes
-  function dragmove(d) {
-    d3.select(this)
-      .attr("transform", 
-            "translate(" 
-               + d.x + "," 
-               + (d.y = Math.max(
-                  0, Math.min(height - d.dy, d3.event.y))
-                 ) + ")");
-    sankey.relayout();
-    link.attr("d", path);
-  }
-});
-
-</script> -->
 
 </body>
