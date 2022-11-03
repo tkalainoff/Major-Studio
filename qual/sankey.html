@@ -55,11 +55,12 @@ div.tooltipsankey {
   width: 500px;
   border: 3px solid #73AD21;
   padding: 10px;
+
 }
 
 .center {
   text-align: center;
-  /* margin: auto; */
+  margin: auto;
 }
 
 </style>
@@ -83,6 +84,7 @@ var formatNumber = d3.format(",.0f"),    // zero decimal places
     color = d3.scaleOrdinal(d3.schemeCategory20);
 
 // append the svg object to the body of the page
+// style position absolute
 var svg = d3.select("body").append("svg")
     .attr("width", width + margin.left + margin.right)
     .attr("height", height + margin.top + margin.bottom)
