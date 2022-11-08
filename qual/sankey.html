@@ -128,14 +128,17 @@ d3.csv("Test3A_fix.csv", function(error, data) {
    });
 
 
-  // data.forEach(d => source.push(d.source))
-  // console.log(source)
-
+  console.log(graph)
 
   // return only the distinct / unique nodes
   graph.nodes = d3.keys(d3.nest()
     .key(function (d) { return d.name; })
     .object(graph.nodes));
+
+    console.log(graph.nodes[18])
+    console.log(graph.nodes[19])
+    console.log(graph.nodes[20])
+    console.log(graph.nodes[21])
 
   // loop through each link replacing the text with its index from node
   graph.links.forEach(function (d, i) {
@@ -153,6 +156,14 @@ d3.csv("Test3A_fix.csv", function(error, data) {
       .nodes(graph.nodes)
       .links(graph.links)
       .layout(32);
+
+  // attempts to select decision nodes only
+  // console.log(graph.nodes[18].name)
+  // console.log(svg.select(graph.nodes[18]))
+
+  // let nodeEnds = 
+  // document.getElementsByClassName("node")[18];
+  //   console.log(nodeEnds)
 
   // add in the links
   var link = svg.append("g").selectAll(".link")
@@ -202,6 +213,7 @@ d3.csv("Test3A_fix.csv", function(error, data) {
         })
         .on("drag", dragmove));
 
+        // console.log(rect)
   // add the rectangles for the nodes
   var rect = node.append("rect")
       .attr("height", function(d) { return d.dy; })
