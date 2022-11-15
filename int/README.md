@@ -16,7 +16,7 @@ https://www.figma.com/file/r6tn3xB6eOOYMJwCDoUs0w/Asylum-Sankey?node-id=73%3A6&t
 ![Design_System](https://user-images.githubusercontent.com/77869514/201982647-8a9a6839-4ba7-4beb-9f90-10e68d77102a.jpg)
 
 ### Concept 1
-https://www.figma.com/file/r6tn3xB6eOOYMJwCDoUs0w/Asylum-Sankey?node-id=73%3A2&t=beAFv6hGSglKEiBf-1
+https://www.figma.com/file/r6tn3xB6eOOYMJwCDoUs0w/Asylum-Sankey?node-id=0%3A1&t=s1ZcbxBGg1ZCqsM4-0
 ![Int_Sankey](https://user-images.githubusercontent.com/77869514/201982652-6031ebfc-5cb3-4cb4-9cd9-449341f78018.jpg)
 
 ### Concept 2
