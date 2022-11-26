@@ -16,6 +16,8 @@ https://www.unhcr.org/refugee-statistics/download/?url=2z1B08
 ## Code Prototype
 
 https://observablehq.com/d/6fd71ac3a86ca79e
+<img width="987" alt="Screen Shot 2022-11-26 at 4 02 18 PM" src="https://user-images.githubusercontent.com/77869514/204108808-b41e7361-a20c-4dc1-a801-6c430fe93b67.png">
+
 <img width="994" alt="Screen Shot 2022-11-26 at 3 59 12 PM" src="https://user-images.githubusercontent.com/77869514/204108722-3ae35def-0e6b-4d96-ae0d-06f5ffeba212.png">
 
 <img width="1183" alt="Screen Shot 2022-11-26 at 3 55 36 PM" src="https://user-images.githubusercontent.com/77869514/204108598-2a7517d4-5a66-492f-a036-51c06ef964db.png">
