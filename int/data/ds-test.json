@@ -1,0 +1,67 @@
+{"path01":{
+    "outome_rec": {
+        "stage_AR": 25,
+        "stage_EO": 0,
+        "stage_IN": 0
+    },
+    "outome_pro": {
+        "stage_AR": 25,
+        "stage_EO": 0,
+        "stage_IN": 0
+    },
+    "outome_rej": {
+        "stage_AR": 25,
+        "stage_EO": 0,
+        "stage_IN": 0
+    },
+    "outome_clo": {
+        "stage_AR": 25,
+        "stage_EO": 0,
+        "stage_IN": 0
+    }
+},
+"path02":{
+    "outome_rec": {
+        "stage_AR": 0,
+        "stage_EO": 25,
+        "stage_IN": 0
+    },
+    "outome_pro": {
+        "stage_AR": 0,
+        "stage_EO": 25,
+        "stage_IN": 0
+    },
+    "outome_rej": {
+        "stage_AR": 0,
+        "stage_EO": 25,
+        "stage_IN": 0
+    },
+    "outome_clo": {
+        "stage_AR": 0,
+        "stage_EO": 25,
+        "stage_IN": 0
+    }
+},
+"path03":{
+    "outome_rec": {
+        "stage_AR": 0,
+        "stage_EO": 0,
+        "stage_IN": 25
+    },
+    "outome_pro": {
+        "stage_AR": 0,
+        "stage_EO": 0,
+        "stage_IN": 25
+    },
+    "outome_rej": {
+        "stage_AR": 0,
+        "stage_EO": 0,
+        "stage_IN": 25
+    },
+    "outome_clo": {
+        "stage_AR": 0,
+        "stage_EO": 0,
+        "stage_IN": 25
+    }
+}
+}
