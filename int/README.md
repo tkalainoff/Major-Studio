@@ -20,6 +20,8 @@ https://observablehq.com/d/6fd71ac3a86ca79e
 
 <img width="994" alt="Screen Shot 2022-11-26 at 3 59 12 PM" src="https://user-images.githubusercontent.com/77869514/204108722-3ae35def-0e6b-4d96-ae0d-06f5ffeba212.png">
 
+<img width="977" alt="Screen Shot 2022-11-26 at 4 03 43 PM" src="https://user-images.githubusercontent.com/77869514/204108836-fd9fd63a-0029-409e-9a2f-30c145570cb7.png">
+
 <img width="1183" alt="Screen Shot 2022-11-26 at 3 55 36 PM" src="https://user-images.githubusercontent.com/77869514/204108598-2a7517d4-5a66-492f-a036-51c06ef964db.png">
 
 ## Moodboard + Design System
