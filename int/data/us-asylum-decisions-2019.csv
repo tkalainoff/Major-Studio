@@ -1,0 +1,362 @@
+Year,"Country of origin","Country of origin (ISO)","Country of asylum","Country of asylum (ISO)",Authority,"Stage of procedure","Cases / Persons","Recognized decisions","Complementary protection","Rejected decisions","Otherwise closed","Total decisions"
+2019,Afghanistan,AFG,"United States of America",USA,G,AR,P,14,0,5,12,31
+2019,Afghanistan,AFG,"United States of America",USA,G,EO,P,18,0,5,0,23
+2019,Afghanistan,AFG,"United States of America",USA,G,IN,C,71,0,43,12,126
+2019,Albania,ALB,"United States of America",USA,G,AR,P,33,0,17,14,64
+2019,Albania,ALB,"United States of America",USA,G,EO,P,84,0,36,10,130
+2019,Albania,ALB,"United States of America",USA,G,IN,C,38,0,209,45,292
+2019,Algeria,DZA,"United States of America",USA,G,AR,P,0,0,0,5,5
+2019,Algeria,DZA,"United States of America",USA,G,EO,P,0,0,5,0,5
+2019,Algeria,DZA,"United States of America",USA,G,IN,C,22,0,34,10,66
+2019,Angola,AGO,"United States of America",USA,G,AR,P,11,0,11,17,39
+2019,Angola,AGO,"United States of America",USA,G,EO,P,13,0,16,22,51
+2019,Angola,AGO,"United States of America",USA,G,IN,C,25,0,143,20,188
+2019,"Antigua and Barbuda",ATG,"United States of America",USA,G,IN,C,5,0,0,0,5
+2019,Egypt,EGY,"United States of America",USA,G,AR,P,145,0,18,47,210
+2019,Egypt,EGY,"United States of America",USA,G,EO,P,28,0,19,18,65
+2019,Egypt,EGY,"United States of America",USA,G,IN,C,1292,0,321,94,1707
+2019,Argentina,ARG,"United States of America",USA,G,AR,P,0,0,0,10,10
+2019,Argentina,ARG,"United States of America",USA,G,EO,P,0,0,11,0,11
+2019,Argentina,ARG,"United States of America",USA,G,IN,C,0,0,18,34,52
+2019,Armenia,ARM,"United States of America",USA,G,AR,P,14,0,0,28,42
+2019,Armenia,ARM,"United States of America",USA,G,EO,P,67,0,49,36,152
+2019,Armenia,ARM,"United States of America",USA,G,IN,C,112,0,188,48,348
+2019,Australia,AUS,"United States of America",USA,G,IN,C,0,0,5,5,10
+2019,Azerbaijan,AZE,"United States of America",USA,G,AR,P,22,0,0,5,27
+2019,Azerbaijan,AZE,"United States of America",USA,G,EO,P,11,0,5,0,16
+2019,Azerbaijan,AZE,"United States of America",USA,G,IN,C,86,0,92,21,199
+2019,Burundi,BDI,"United States of America",USA,G,AR,P,36,0,5,0,41
+2019,Burundi,BDI,"United States of America",USA,G,EO,P,12,0,5,5,22
+2019,Burundi,BDI,"United States of America",USA,G,IN,C,42,0,49,13,104
+2019,Belgium,BEL,"United States of America",USA,G,AR,P,0,0,5,0,5
+2019,Belgium,BEL,"United States of America",USA,G,IN,C,0,0,0,5,5
+2019,Benin,BEN,"United States of America",USA,G,EO,P,0,0,5,0,5
+2019,Benin,BEN,"United States of America",USA,G,IN,C,5,0,24,5,34
+2019,Bangladesh,BGD,"United States of America",USA,G,AR,P,133,0,33,48,214
+2019,Bangladesh,BGD,"United States of America",USA,G,EO,P,259,0,311,26,596
+2019,Bangladesh,BGD,"United States of America",USA,G,IN,C,56,0,387,96,539
+2019,Bahamas,BHS,"United States of America",USA,G,EO,P,0,0,5,0,5
+2019,Bahamas,BHS,"United States of America",USA,G,IN,C,0,0,11,0,11
+2019,Bhutan,BTN,"United States of America",USA,G,AR,P,5,0,0,5,10
+2019,Bhutan,BTN,"United States of America",USA,G,EO,P,0,0,14,0,14
+2019,Bhutan,BTN,"United States of America",USA,G,IN,C,0,0,16,5,21
+2019,"Burkina Faso",BFA,"United States of America",USA,G,AR,P,70,0,19,23,112
+2019,"Burkina Faso",BFA,"United States of America",USA,G,EO,P,12,0,11,0,23
+2019,"Burkina Faso",BFA,"United States of America",USA,G,IN,C,69,0,205,30,304
+2019,Belarus,BLR,"United States of America",USA,G,AR,P,23,0,5,19,47
+2019,Belarus,BLR,"United States of America",USA,G,EO,P,17,0,0,0,17
+2019,Belarus,BLR,"United States of America",USA,G,IN,C,121,0,227,46,394
+2019,"Bolivia (Plurinational State of)",BOL,"United States of America",USA,G,AR,P,10,0,0,0,10
+2019,"Bolivia (Plurinational State of)",BOL,"United States of America",USA,G,EO,P,0,0,5,0,5
+2019,"Bolivia (Plurinational State of)",BOL,"United States of America",USA,G,IN,C,5,0,36,5,46
+2019,Brazil,BRA,"United States of America",USA,G,AR,P,13,0,19,90,122
+2019,Brazil,BRA,"United States of America",USA,G,EO,P,42,0,454,182,678
+2019,Brazil,BRA,"United States of America",USA,G,IN,C,205,0,492,354,1051
+2019,"Bosnia and Herzegovina",BIH,"United States of America",USA,G,AR,P,0,0,11,0,11
+2019,"Bosnia and Herzegovina",BIH,"United States of America",USA,G,EO,P,5,0,12,5,22
+2019,"Bosnia and Herzegovina",BIH,"United States of America",USA,G,IN,C,11,0,12,10,33
+2019,Bulgaria,BGR,"United States of America",USA,G,AR,P,5,0,0,0,5
+2019,Bulgaria,BGR,"United States of America",USA,G,IN,C,10,0,12,5,27
+2019,Belize,BLZ,"United States of America",USA,G,EO,P,0,0,19,5,24
+2019,Belize,BLZ,"United States of America",USA,G,IN,C,0,0,12,5,17
+2019,Cambodia,KHM,"United States of America",USA,G,EO,P,0,0,5,0,5
+2019,Cambodia,KHM,"United States of America",USA,G,IN,C,11,0,0,0,11
+2019,Canada,CAN,"United States of America",USA,G,EO,P,0,0,5,0,5
+2019,Canada,CAN,"United States of America",USA,G,IN,C,0,0,0,5,5
+2019,"Central African Rep.",CAF,"United States of America",USA,G,IN,C,11,0,5,0,16
+2019,Chad,TCD,"United States of America",USA,G,AR,P,5,0,0,0,5
+2019,Chad,TCD,"United States of America",USA,G,EO,P,10,0,0,0,10
+2019,Chad,TCD,"United States of America",USA,G,IN,C,14,0,14,0,28
+2019,China,CHN,"United States of America",USA,G,AR,P,1930,0,521,980,3431
+2019,China,CHN,"United States of America",USA,G,EO,P,1469,0,535,170,2174
+2019,China,CHN,"United States of America",USA,G,IN,C,3310,0,3685,1161,8156
+2019,Chile,CHL,"United States of America",USA,G,EO,P,0,0,5,10,15
+2019,Chile,CHL,"United States of America",USA,G,IN,C,5,0,25,12,42
+2019,Cameroon,CMR,"United States of America",USA,G,AR,P,35,0,5,21,61
+2019,Cameroon,CMR,"United States of America",USA,G,EO,P,672,0,173,17,862
+2019,Cameroon,CMR,"United States of America",USA,G,IN,C,316,0,256,42,614
+2019,Congo,COG,"United States of America",USA,G,AR,P,17,0,10,10,37
+2019,Congo,COG,"United States of America",USA,G,EO,P,10,0,16,10,36
+2019,"Dem. Rep. of the Congo",COD,"United States of America",USA,G,AR,P,28,0,14,18,60
+2019,"Dem. Rep. of the Congo",COD,"United States of America",USA,G,EO,P,38,0,40,0,78
+2019,"Dem. Rep. of the Congo",COD,"United States of America",USA,G,IN,C,197,0,362,58,617
+2019,Comoros,COM,"United States of America",USA,G,IN,C,0,0,5,0,5
+2019,Colombia,COL,"United States of America",USA,G,AR,P,34,0,49,155,238
+2019,Colombia,COL,"United States of America",USA,G,EO,P,14,0,149,90,253
+2019,Colombia,COL,"United States of America",USA,G,IN,C,268,0,1282,213,1763
+2019,"Costa Rica",CRI,"United States of America",USA,G,AR,P,0,0,0,5,5
+2019,"Costa Rica",CRI,"United States of America",USA,G,EO,P,0,0,10,0,10
+2019,"Costa Rica",CRI,"United States of America",USA,G,IN,C,0,0,80,17,97
+2019,Cuba,CUB,"United States of America",USA,G,AR,P,0,0,0,5,5
+2019,Cuba,CUB,"United States of America",USA,G,EO,P,1031,0,1419,420,2870
+2019,Cuba,CUB,"United States of America",USA,G,IN,C,5,0,34,55,94
+2019,"Cabo Verde",CPV,"United States of America",USA,G,IN,C,0,0,5,0,5
+2019,Cyprus,CYP,"United States of America",USA,G,IN,C,0,0,5,0,5
+2019,Czechia,CZE,"United States of America",USA,G,EO,P,0,0,5,0,5
+2019,Djibouti,DJI,"United States of America",USA,G,AR,P,11,0,0,0,11
+2019,Djibouti,DJI,"United States of America",USA,G,IN,C,50,0,13,16,79
+2019,Dominica,DMA,"United States of America",USA,G,IN,C,5,0,0,0,5
+2019,"Dominican Rep.",DOM,"United States of America",USA,G,AR,P,0,0,0,13,13
+2019,"Dominican Rep.",DOM,"United States of America",USA,G,EO,P,11,0,111,82,204
+2019,"Dominican Rep.",DOM,"United States of America",USA,G,IN,C,16,0,68,38,122
+2019,Ecuador,ECU,"United States of America",USA,G,AR,P,5,0,58,427,490
+2019,Ecuador,ECU,"United States of America",USA,G,EO,P,125,0,623,333,1081
+2019,Ecuador,ECU,"United States of America",USA,G,IN,C,42,0,2026,357,2425
+2019,"Equatorial Guinea",GNQ,"United States of America",USA,G,IN,C,11,0,0,0,11
+2019,Eritrea,ERI,"United States of America",USA,G,AR,P,63,0,0,15,78
+2019,Eritrea,ERI,"United States of America",USA,G,EO,P,217,0,137,18,372
+2019,Eritrea,ERI,"United States of America",USA,G,IN,C,270,0,64,10,344
+2019,Ethiopia,ETH,"United States of America",USA,G,AR,P,131,0,13,40,184
+2019,Ethiopia,ETH,"United States of America",USA,G,EO,P,35,0,30,5,70
+2019,Ethiopia,ETH,"United States of America",USA,G,IN,C,295,0,204,65,564
+2019,Fiji,FJI,"United States of America",USA,G,AR,P,11,0,0,0,11
+2019,Fiji,FJI,"United States of America",USA,G,EO,P,0,0,5,0,5
+2019,Fiji,FJI,"United States of America",USA,G,IN,C,5,0,31,0,36
+2019,France,FRA,"United States of America",USA,G,EO,P,0,0,0,5,5
+2019,France,FRA,"United States of America",USA,G,IN,C,0,0,0,13,13
+2019,"Micronesia (Federated States of)",FSM,"United States of America",USA,G,EO,P,0,0,5,0,5
+2019,Gabon,GAB,"United States of America",USA,G,IN,C,5,0,36,5,46
+2019,Gambia,GMB,"United States of America",USA,G,AR,P,18,0,5,16,39
+2019,Gambia,GMB,"United States of America",USA,G,EO,P,5,0,12,0,17
+2019,Gambia,GMB,"United States of America",USA,G,IN,C,52,0,57,10,119
+2019,Palestinian,PSE,"United States of America",USA,G,AR,P,0,0,0,14,14
+2019,"United Kingdom of Great Britain and Northern Ireland",GBR,"United States of America",USA,G,EO,P,0,0,10,0,10
+2019,"United Kingdom of Great Britain and Northern Ireland",GBR,"United States of America",USA,G,IN,C,0,0,13,0,13
+2019,Georgia,GEO,"United States of America",USA,G,AR,P,14,0,0,0,14
+2019,Georgia,GEO,"United States of America",USA,G,EO,P,21,0,26,0,47
+2019,Georgia,GEO,"United States of America",USA,G,IN,C,60,0,185,36,281
+2019,Germany,DEU,"United States of America",USA,G,IN,C,0,0,11,0,11
+2019,Ghana,GHA,"United States of America",USA,G,EO,P,52,0,56,49,157
+2019,Ghana,GHA,"United States of America",USA,G,IN,C,13,0,42,12,67
+2019,Guinea-Bissau,GNB,"United States of America",USA,G,IN,C,0,0,0,5,5
+2019,Greece,GRC,"United States of America",USA,G,EO,P,0,0,11,0,11
+2019,Greece,GRC,"United States of America",USA,G,IN,C,0,0,5,11,16
+2019,Grenada,GRD,"United States of America",USA,G,IN,C,5,0,0,0,5
+2019,Guatemala,GTM,"United States of America",USA,G,AR,P,41,0,180,418,639
+2019,Guatemala,GTM,"United States of America",USA,G,EO,P,1811,0,11756,3361,16928
+2019,Guatemala,GTM,"United States of America",USA,G,IN,C,1358,0,4877,2202,8437
+2019,Guinea,GIN,"United States of America",USA,G,AR,P,45,0,16,17,78
+2019,Guinea,GIN,"United States of America",USA,G,EO,P,39,0,26,0,65
+2019,Guinea,GIN,"United States of America",USA,G,IN,C,73,0,122,10,205
+2019,Guyana,GUY,"United States of America",USA,G,AR,P,0,0,11,0,11
+2019,Guyana,GUY,"United States of America",USA,G,EO,P,0,0,14,0,14
+2019,Guyana,GUY,"United States of America",USA,G,IN,C,18,0,70,18,106
+2019,Haiti,HTI,"United States of America",USA,G,AR,P,23,0,86,100,209
+2019,Haiti,HTI,"United States of America",USA,G,EO,P,63,0,992,256,1311
+2019,Haiti,HTI,"United States of America",USA,G,IN,C,234,0,1021,270,1525
+2019,"China, Hong Kong SAR",HKG,"United States of America",USA,G,IN,C,0,0,11,5,16
+2019,Honduras,HND,"United States of America",USA,G,AR,P,11,0,85,187,283
+2019,Honduras,HND,"United States of America",USA,G,EO,P,1448,0,10578,3091,15117
+2019,Honduras,HND,"United States of America",USA,G,IN,C,625,0,2553,1274,4452
+2019,Hungary,HUN,"United States of America",USA,G,EO,P,0,0,12,5,17
+2019,Hungary,HUN,"United States of America",USA,G,IN,C,0,0,34,31,65
+2019,"Cote d'Ivoire",CIV,"United States of America",USA,G,AR,P,20,0,10,18,48
+2019,"Cote d'Ivoire",CIV,"United States of America",USA,G,EO,P,5,0,11,5,21
+2019,"Cote d'Ivoire",CIV,"United States of America",USA,G,IN,C,29,0,125,29,183
+2019,India,IND,"United States of America",USA,G,AR,P,402,0,115,178,695
+2019,India,IND,"United States of America",USA,G,EO,P,1604,0,1173,306,3083
+2019,India,IND,"United States of America",USA,G,IN,C,329,0,2244,454,3027
+2019,Indonesia,IDN,"United States of America",USA,G,AR,P,33,0,10,30,73
+2019,Indonesia,IDN,"United States of America",USA,G,EO,P,0,0,5,5,10
+2019,Indonesia,IDN,"United States of America",USA,G,IN,C,75,0,415,52,542
+2019,"Iran (Islamic Rep. of)",IRN,"United States of America",USA,G,AR,P,88,0,5,28,121
+2019,"Iran (Islamic Rep. of)",IRN,"United States of America",USA,G,EO,P,18,0,20,12,50
+2019,"Iran (Islamic Rep. of)",IRN,"United States of America",USA,G,IN,C,352,0,121,115,588
+2019,Iraq,IRQ,"United States of America",USA,G,AR,P,109,0,20,71,200
+2019,Iraq,IRQ,"United States of America",USA,G,EO,P,22,0,36,26,84
+2019,Iraq,IRQ,"United States of America",USA,G,IN,C,288,0,300,128,716
+2019,Israel,ISR,"United States of America",USA,G,AR,P,0,0,0,10,10
+2019,Israel,ISR,"United States of America",USA,G,EO,P,0,0,0,5,5
+2019,Israel,ISR,"United States of America",USA,G,IN,C,16,0,22,19,57
+2019,Italy,ITA,"United States of America",USA,G,EO,P,0,0,0,12,12
+2019,Italy,ITA,"United States of America",USA,G,IN,C,0,0,36,25,61
+2019,Jamaica,JAM,"United States of America",USA,G,AR,P,0,0,0,5,5
+2019,Jamaica,JAM,"United States of America",USA,G,EO,P,12,0,90,43,145
+2019,Jamaica,JAM,"United States of America",USA,G,IN,C,105,0,63,26,194
+2019,Jordan,JOR,"United States of America",USA,G,AR,P,15,0,5,33,53
+2019,Jordan,JOR,"United States of America",USA,G,EO,P,5,0,10,10,25
+2019,Jordan,JOR,"United States of America",USA,G,IN,C,81,0,243,89,413
+2019,Japan,JPN,"United States of America",USA,G,EO,P,0,0,5,0,5
+2019,Japan,JPN,"United States of America",USA,G,IN,C,0,0,14,0,14
+2019,Kazakhstan,KAZ,"United States of America",USA,G,AR,P,26,0,5,16,47
+2019,Kazakhstan,KAZ,"United States of America",USA,G,EO,P,0,0,14,0,14
+2019,Kazakhstan,KAZ,"United States of America",USA,G,IN,C,183,0,242,57,482
+2019,Kenya,KEN,"United States of America",USA,G,AR,P,35,0,13,13,61
+2019,Kenya,KEN,"United States of America",USA,G,EO,P,10,0,27,17,54
+2019,Kenya,KEN,"United States of America",USA,G,IN,C,163,0,206,32,401
+2019,Kyrgyzstan,KGZ,"United States of America",USA,G,AR,P,63,0,10,19,92
+2019,Kyrgyzstan,KGZ,"United States of America",USA,G,EO,P,33,0,10,5,48
+2019,Kyrgyzstan,KGZ,"United States of America",USA,G,IN,C,97,0,146,29,272
+2019,"Rep. of Korea",KOR,"United States of America",USA,G,AR,P,0,0,0,5,5
+2019,"Rep. of Korea",KOR,"United States of America",USA,G,EO,P,0,0,10,11,21
+2019,"Rep. of Korea",KOR,"United States of America",USA,G,IN,C,0,0,27,26,53
+2019,"Dem. People's Rep. of Korea",PRK,"United States of America",USA,G,IN,C,0,0,5,5,10
+2019,Kuwait,KWT,"United States of America",USA,G,IN,C,13,0,5,0,18
+2019,"Lao People's Dem. Rep.",LAO,"United States of America",USA,G,AR,P,0,0,0,5,5
+2019,"Lao People's Dem. Rep.",LAO,"United States of America",USA,G,EO,P,0,0,10,0,10
+2019,"Lao People's Dem. Rep.",LAO,"United States of America",USA,G,IN,C,0,0,13,5,18
+2019,Liberia,LBR,"United States of America",USA,G,AR,P,14,0,5,12,31
+2019,Liberia,LBR,"United States of America",USA,G,EO,P,0,0,28,5,33
+2019,Liberia,LBR,"United States of America",USA,G,IN,C,126,0,163,21,310
+2019,Libya,LBY,"United States of America",USA,G,AR,P,0,0,5,39,44
+2019,Libya,LBY,"United States of America",USA,G,EO,P,0,0,5,0,5
+2019,Libya,LBY,"United States of America",USA,G,IN,C,41,0,59,33,133
+2019,"Saint Lucia",LCA,"United States of America",USA,G,IN,C,0,0,5,0,5
+2019,Lebanon,LBN,"United States of America",USA,G,AR,P,14,0,5,18,37
+2019,Lebanon,LBN,"United States of America",USA,G,EO,P,5,0,10,0,15
+2019,Lebanon,LBN,"United States of America",USA,G,IN,C,32,0,125,29,186
+2019,"Sri Lanka",LKA,"United States of America",USA,G,AR,P,43,0,18,20,81
+2019,"Sri Lanka",LKA,"United States of America",USA,G,EO,P,32,0,63,28,123
+2019,"Sri Lanka",LKA,"United States of America",USA,G,IN,C,37,0,163,32,232
+2019,Lithuania,LTU,"United States of America",USA,G,EO,P,5,0,0,0,5
+2019,Lithuania,LTU,"United States of America",USA,G,IN,C,0,0,5,5,10
+2019,Latvia,LVA,"United States of America",USA,G,IN,C,0,0,5,0,5
+2019,Mauritania,MRT,"United States of America",USA,G,AR,P,19,0,5,18,42
+2019,Mauritania,MRT,"United States of America",USA,G,EO,P,11,0,5,0,16
+2019,Mauritania,MRT,"United States of America",USA,G,IN,C,94,0,124,22,240
+2019,"North Macedonia",MKD,"United States of America",USA,G,EO,P,0,0,0,5,5
+2019,"North Macedonia",MKD,"United States of America",USA,G,IN,C,16,0,18,5,39
+2019,"Rep. of Moldova",MDA,"United States of America",USA,G,AR,P,68,0,5,18,91
+2019,"Rep. of Moldova",MDA,"United States of America",USA,G,EO,P,10,0,0,0,10
+2019,"Rep. of Moldova",MDA,"United States of America",USA,G,IN,C,59,0,139,40,238
+2019,Mexico,MEX,"United States of America",USA,G,AR,P,21,0,277,1847,2145
+2019,Mexico,MEX,"United States of America",USA,G,EO,P,916,0,6980,2607,10503
+2019,Mexico,MEX,"United States of America",USA,G,IN,C,1114,0,9107,2915,13136
+2019,Mali,MLI,"United States of America",USA,G,AR,P,23,0,5,15,43
+2019,Mali,MLI,"United States of America",USA,G,EO,P,0,0,10,0,10
+2019,Mali,MLI,"United States of America",USA,G,IN,C,20,0,54,10,84
+2019,Malaysia,MYS,"United States of America",USA,G,AR,P,0,0,0,5,5
+2019,Malaysia,MYS,"United States of America",USA,G,IN,C,10,0,41,5,56
+2019,Malawi,MWI,"United States of America",USA,G,AR,P,0,0,0,5,5
+2019,Malawi,MWI,"United States of America",USA,G,IN,C,10,0,15,0,25
+2019,Montenegro,MNE,"United States of America",USA,G,AR,P,0,0,0,5,5
+2019,Montenegro,MNE,"United States of America",USA,G,IN,C,22,0,69,11,102
+2019,Mongolia,MNG,"United States of America",USA,G,AR,P,22,0,12,24,58
+2019,Mongolia,MNG,"United States of America",USA,G,EO,P,11,0,0,5,16
+2019,Mongolia,MNG,"United States of America",USA,G,IN,C,74,0,140,27,241
+2019,Morocco,MAR,"United States of America",USA,G,EO,P,0,0,5,5,10
+2019,Morocco,MAR,"United States of America",USA,G,IN,C,22,0,20,13,55
+2019,Mozambique,MOZ,"United States of America",USA,G,IN,C,18,0,14,14,46
+2019,Mauritius,MUS,"United States of America",USA,G,IN,C,5,0,0,0,5
+2019,Myanmar,MMR,"United States of America",USA,G,AR,P,18,0,5,5,28
+2019,Myanmar,MMR,"United States of America",USA,G,EO,P,5,0,16,5,26
+2019,Myanmar,MMR,"United States of America",USA,G,IN,C,124,0,191,20,335
+2019,Nepal,NPL,"United States of America",USA,G,AR,P,214,0,50,72,336
+2019,Nepal,NPL,"United States of America",USA,G,EO,P,348,0,173,21,542
+2019,Nepal,NPL,"United States of America",USA,G,IN,C,51,0,423,77,551
+2019,Niger,NER,"United States of America",USA,G,AR,P,0,0,0,5,5
+2019,Niger,NER,"United States of America",USA,G,IN,C,5,0,29,5,39
+2019,Nicaragua,NIC,"United States of America",USA,G,AR,P,5,0,10,23,38
+2019,Nicaragua,NIC,"United States of America",USA,G,EO,P,509,0,837,244,1590
+2019,Nicaragua,NIC,"United States of America",USA,G,IN,C,273,0,372,140,785
+2019,Nigeria,NGA,"United States of America",USA,G,AR,P,148,0,25,109,282
+2019,Nigeria,NGA,"United States of America",USA,G,EO,P,45,0,98,48,191
+2019,Nigeria,NGA,"United States of America",USA,G,IN,C,434,0,1426,125,1985
+2019,Oman,OMN,"United States of America",USA,G,IN,C,5,0,0,5,10
+2019,Pakistan,PAK,"United States of America",USA,G,AR,P,101,0,46,78,225
+2019,Pakistan,PAK,"United States of America",USA,G,EO,P,69,0,78,32,179
+2019,Pakistan,PAK,"United States of America",USA,G,IN,C,279,0,420,110,809
+2019,Panama,PAN,"United States of America",USA,G,IN,C,0,0,11,5,16
+2019,Paraguay,PRY,"United States of America",USA,G,IN,C,5,0,13,0,18
+2019,Peru,PER,"United States of America",USA,G,AR,P,0,0,10,37,47
+2019,Peru,PER,"United States of America",USA,G,EO,P,47,0,163,67,277
+2019,Peru,PER,"United States of America",USA,G,IN,C,26,0,349,79,454
+2019,Philippines,PHL,"United States of America",USA,G,AR,P,5,0,26,41,72
+2019,Philippines,PHL,"United States of America",USA,G,EO,P,0,0,24,16,40
+2019,Philippines,PHL,"United States of America",USA,G,IN,C,15,0,258,56,329
+2019,Poland,POL,"United States of America",USA,G,AR,P,0,0,0,22,22
+2019,Poland,POL,"United States of America",USA,G,EO,P,0,0,5,0,5
+2019,Poland,POL,"United States of America",USA,G,IN,C,0,0,142,23,165
+2019,Portugal,PRT,"United States of America",USA,G,EO,P,0,0,0,12,12
+2019,Portugal,PRT,"United States of America",USA,G,IN,C,0,0,14,39,53
+2019,Qatar,QAT,"United States of America",USA,G,AR,P,5,0,0,0,5
+2019,Romania,ROU,"United States of America",USA,G,AR,P,0,0,10,34,44
+2019,Romania,ROU,"United States of America",USA,G,EO,P,43,0,152,210,405
+2019,Romania,ROU,"United States of America",USA,G,IN,C,25,0,129,135,289
+2019,"South Africa",ZAF,"United States of America",USA,G,AR,P,5,0,0,0,5
+2019,"South Africa",ZAF,"United States of America",USA,G,EO,P,0,0,5,0,5
+2019,"South Africa",ZAF,"United States of America",USA,G,IN,C,10,0,131,5,146
+2019,"Russian Federation",RUS,"United States of America",USA,G,AR,P,156,0,37,77,270
+2019,"Russian Federation",RUS,"United States of America",USA,G,EO,P,223,0,114,16,353
+2019,"Russian Federation",RUS,"United States of America",USA,G,IN,C,1018,0,799,281,2098
+2019,Rwanda,RWA,"United States of America",USA,G,AR,P,17,0,10,18,45
+2019,Rwanda,RWA,"United States of America",USA,G,EO,P,10,0,0,0,10
+2019,Rwanda,RWA,"United States of America",USA,G,IN,C,140,0,126,19,285
+2019,"El Salvador",SLV,"United States of America",USA,G,AR,P,27,0,97,355,479
+2019,"El Salvador",SLV,"United States of America",USA,G,EO,P,2585,0,12071,2740,17396
+2019,"El Salvador",SLV,"United States of America",USA,G,IN,C,1121,0,3549,1299,5969
+2019,"Saudi Arabia",SAU,"United States of America",USA,G,AR,P,0,0,0,13,13
+2019,"Saudi Arabia",SAU,"United States of America",USA,G,EO,P,0,0,13,0,13
+2019,"Saudi Arabia",SAU,"United States of America",USA,G,IN,C,84,0,38,21,143
+2019,Senegal,SEN,"United States of America",USA,G,AR,P,11,0,5,21,37
+2019,Senegal,SEN,"United States of America",USA,G,EO,P,5,0,12,0,17
+2019,Senegal,SEN,"United States of America",USA,G,IN,C,21,0,69,11,101
+2019,"Sierra Leone",SLE,"United States of America",USA,G,AR,P,10,0,0,0,10
+2019,"Sierra Leone",SLE,"United States of America",USA,G,EO,P,13,0,20,0,33
+2019,"Sierra Leone",SLE,"United States of America",USA,G,IN,C,17,0,22,5,44
+2019,Somalia,SOM,"United States of America",USA,G,EO,P,27,0,46,32,105
+2019,Somalia,SOM,"United States of America",USA,G,IN,C,24,0,5,10,39
+2019,Spain,ESP,"United States of America",USA,G,EO,P,0,0,5,15,20
+2019,Spain,ESP,"United States of America",USA,G,IN,C,0,0,21,12,33
+2019,"Serbia and Kosovo: S/RES/1244 (1999)",SRB,"United States of America",USA,G,AR,P,21,0,5,5,31
+2019,"Serbia and Kosovo: S/RES/1244 (1999)",SRB,"United States of America",USA,G,EO,P,12,0,10,0,22
+2019,"Serbia and Kosovo: S/RES/1244 (1999)",SRB,"United States of America",USA,G,IN,C,36,0,80,10,126
+2019,"Viet Nam",VNM,"United States of America",USA,G,AR,P,10,0,0,0,10
+2019,"Viet Nam",VNM,"United States of America",USA,G,EO,P,75,0,50,10,135
+2019,"Viet Nam",VNM,"United States of America",USA,G,IN,C,33,0,71,18,122
+2019,"South Sudan",SSD,"United States of America",USA,G,EO,P,0,0,10,0,10
+2019,"South Sudan",SSD,"United States of America",USA,G,IN,C,21,0,15,0,36
+2019,Sudan,SDN,"United States of America",USA,G,AR,P,17,0,5,17,39
+2019,Sudan,SDN,"United States of America",USA,G,EO,P,14,0,19,10,43
+2019,Sudan,SDN,"United States of America",USA,G,IN,C,94,0,70,28,192
+2019,Slovakia,SVK,"United States of America",USA,G,IN,C,0,0,5,0,5
+2019,"Syrian Arab Rep.",SYR,"United States of America",USA,G,AR,P,64,0,10,41,115
+2019,"Syrian Arab Rep.",SYR,"United States of America",USA,G,EO,P,62,0,5,5,72
+2019,"Syrian Arab Rep.",SYR,"United States of America",USA,G,IN,C,344,0,210,100,654
+2019,"United Rep. of Tanzania",TZA,"United States of America",USA,G,EO,P,0,0,5,0,5
+2019,"United Rep. of Tanzania",TZA,"United States of America",USA,G,IN,C,10,0,13,5,28
+2019,Thailand,THA,"United States of America",USA,G,AR,P,0,0,0,11,11
+2019,Thailand,THA,"United States of America",USA,G,EO,P,0,0,5,0,5
+2019,Thailand,THA,"United States of America",USA,G,IN,C,5,0,14,47,66
+2019,Tajikistan,TJK,"United States of America",USA,G,AR,P,11,0,0,0,11
+2019,Tajikistan,TJK,"United States of America",USA,G,EO,P,5,0,0,0,5
+2019,Tajikistan,TJK,"United States of America",USA,G,IN,C,14,0,42,10,66
+2019,Turkmenistan,TKM,"United States of America",USA,G,IN,C,32,0,10,5,47
+2019,Togo,TGO,"United States of America",USA,G,AR,P,0,0,5,0,5
+2019,Togo,TGO,"United States of America",USA,G,EO,P,10,0,12,0,22
+2019,Togo,TGO,"United States of America",USA,G,IN,C,42,0,71,10,123
+2019,"Trinidad and Tobago",TTO,"United States of America",USA,G,AR,P,0,0,0,5,5
+2019,"Trinidad and Tobago",TTO,"United States of America",USA,G,EO,P,0,0,18,5,23
+2019,"Trinidad and Tobago",TTO,"United States of America",USA,G,IN,C,0,0,27,10,37
+2019,Tunisia,TUN,"United States of America",USA,G,EO,P,0,0,5,0,5
+2019,Tunisia,TUN,"United States of America",USA,G,IN,C,5,0,39,5,49
+2019,Türkiye,TUR,"United States of America",USA,G,AR,P,10,0,5,10,25
+2019,Türkiye,TUR,"United States of America",USA,G,EO,P,81,0,23,20,124
+2019,Türkiye,TUR,"United States of America",USA,G,IN,C,1309,0,199,73,1581
+2019,"United Arab Emirates",ARE,"United States of America",USA,G,AR,P,10,0,0,0,10
+2019,"United Arab Emirates",ARE,"United States of America",USA,G,IN,C,5,0,0,5,10
+2019,Uganda,UGA,"United States of America",USA,G,AR,P,40,0,5,17,62
+2019,Uganda,UGA,"United States of America",USA,G,EO,P,30,0,16,0,46
+2019,Uganda,UGA,"United States of America",USA,G,IN,C,211,0,329,20,560
+2019,"Unknown ",,"United States of America",USA,G,AR,P,254,0,91,2409,2754
+2019,"Unknown ",,"United States of America",USA,G,EO,P,96,0,88,5448,5632
+2019,"Unknown ",,"United States of America",USA,G,IN,C,643,0,1003,312,1958
+2019,Ukraine,UKR,"United States of America",USA,G,AR,P,83,0,42,75,200
+2019,Ukraine,UKR,"United States of America",USA,G,EO,P,68,0,55,15,138
+2019,Ukraine,UKR,"United States of America",USA,G,IN,C,250,0,529,204,983
+2019,Uruguay,URY,"United States of America",USA,G,AR,P,0,0,0,5,5
+2019,Uruguay,URY,"United States of America",USA,G,IN,C,0,0,19,12,31
+2019,Uzbekistan,UZB,"United States of America",USA,G,AR,P,15,0,12,34,61
+2019,Uzbekistan,UZB,"United States of America",USA,G,EO,P,92,0,62,5,159
+2019,Uzbekistan,UZB,"United States of America",USA,G,IN,C,73,0,175,68,316
+2019,"Saint Vincent and the Grenadines",VCT,"United States of America",USA,G,IN,C,0,0,5,0,5
+2019,"Venezuela (Bolivarian Republic of)",VEN,"United States of America",USA,G,AR,P,376,0,168,460,1004
+2019,"Venezuela (Bolivarian Republic of)",VEN,"United States of America",USA,G,EO,P,444,0,268,156,868
+2019,"Venezuela (Bolivarian Republic of)",VEN,"United States of America",USA,G,IN,C,3824,0,7316,1015,12155
+2019,Yemen,YEM,"United States of America",USA,G,AR,P,14,0,0,10,24
+2019,Yemen,YEM,"United States of America",USA,G,EO,P,10,0,15,5,30
+2019,Yemen,YEM,"United States of America",USA,G,IN,C,89,0,63,24,176
+2019,Zambia,ZMB,"United States of America",USA,G,IN,C,10,0,10,5,25
+2019,Zimbabwe,ZWE,"United States of America",USA,G,AR,P,5,0,0,5,10
+2019,Zimbabwe,ZWE,"United States of America",USA,G,EO,P,0,0,13,0,13
+2019,Zimbabwe,ZWE,"United States of America",USA,G,IN,C,81,0,64,11,156
