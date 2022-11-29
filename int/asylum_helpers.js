@@ -82,5 +82,6 @@ function getOutcomes_Clo (array){
   return outcomes
   }
 
+export { getOutcomes };
 
-module.exports = { getOutcomes };
+// module.exports = { getOutcomes };
