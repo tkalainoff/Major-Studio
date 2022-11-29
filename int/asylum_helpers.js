@@ -83,5 +83,3 @@ function getOutcomes_Clo (array){
   }
 
 export { getOutcomes };
-
-// module.exports = { getOutcomes };
