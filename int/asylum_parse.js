@@ -9,7 +9,7 @@ import fs from 'fs';
 import _ from 'lodash';
 
 // import helper functions
-import { getOutcomes } from './asylum_helpers.js';
+import { getOutcomes, getPaths_all } from './asylum_helpers.js';
 
 // load the cheerio object into a variable, `rawData`
 let rawData = JSON.parse(fs.readFileSync('data/us-asylum-decision-2019.json'));
@@ -17,6 +17,9 @@ console.log(rawData)
 
 let outcomes = getOutcomes(rawData)
 console.log(outcomes)
+
+let paths = getPaths_all(outcomes)
+console.log(paths)
 
 const totalOutcomes = d3.rollup(outcomes, v=> d3.sum(v, d => d.value))
 console.log(totalOutcomes)
